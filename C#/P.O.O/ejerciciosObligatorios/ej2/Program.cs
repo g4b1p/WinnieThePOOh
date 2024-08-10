@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ej1
+namespace ej2
 {
     internal class Program
     {
