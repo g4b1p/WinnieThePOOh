@@ -42,10 +42,39 @@ namespace ej2
             this.Altura = A;
         }
 
-        public int CalcularIMC(double kg)
+        public int CalcularIMC(double pes, double alt)
         {
-            if (kg == 0)
-            return;
+            double IMC = pes / (alt*alt);
+            if (IMC < 20)
+            {
+                return -1;
+            }
+            else if (IMC >= 20 && IMC <= 25)
+            {
+                return 0;
+            }
+            else
+            {
+                return 1;
+            }
+        }   
+        public bool EsMayorEdad(int ed)
+        {
+            if (ed >= 18)
+            {
+                return true;
+            }
+            else 
+            {
+                return false;
+            }
+        }
+        public void ComprobarSexo(string sex)
+        {
+            if (sex == Sexo)
+            {
+
+            }
         }
     }
 }
