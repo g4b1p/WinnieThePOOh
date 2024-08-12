@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ej4
 {
-    internal class Lavadora : Electrodomesticos
+    internal class Lavadora : Electrodomestico
     {
         double carga = 5;
         public double Carga { get { return carga; } set { carga = value; } }

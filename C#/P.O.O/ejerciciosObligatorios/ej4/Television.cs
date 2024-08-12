@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ej4
 {
-    internal class Television : Electrodomesticos
+    internal class Television : Electrodomestico
     {
         int resolucion = 20;
         bool sintonizadorTDT = false;

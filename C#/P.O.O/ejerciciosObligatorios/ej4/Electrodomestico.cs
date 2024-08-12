@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ej4
 {
-    internal class Electrodomesticos
+    internal class Electrodomestico
     {
         double precioBase = 100;
         string color = "Blanco";
@@ -20,15 +20,15 @@ namespace ej4
         public char  ConsumoEnergetico { get { return consumoEnergetico; } set { consumoEnergetico = value; } }
         public double Peso { get { return peso; } set { peso = value; } }
 
-        public Electrodomesticos()
+        public Electrodomestico()
         {
         }
-        public Electrodomesticos(double Pr, double Pe)
+        public Electrodomestico(double Pr, double Pe)
         {
             PrecioBase = Pr;
             Peso = Pe;
         }
-        public Electrodomesticos(double Pr, string Col, char Con, double Pe)
+        public Electrodomestico(double Pr, string Col, char Con, double Pe)
         {
             PrecioBase = Pr;
             Color = Col.ToLower();

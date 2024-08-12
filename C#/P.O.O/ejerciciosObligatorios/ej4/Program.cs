@@ -11,7 +11,7 @@ namespace ej4
         static void Main(string[] args)
         {
             //Electrodomesticos[] electrodomesticos = {};
-            List<Electrodomesticos> electrodomesticos = new List<Electrodomesticos>();
+            List<Electrodomestico> electrodomesticos = new List<Electrodomestico>();
 
             Lavadora lav1 = new Lavadora();
             Lavadora lav2 = new Lavadora();
@@ -36,7 +36,7 @@ namespace ej4
             electrodomesticos.Add(tv5);
 
             double prElects = 0;
-            foreach(Electrodomesticos elec in electrodomesticos)
+            foreach(Electrodomestico elec in electrodomesticos)
             {
                 elec.PrecioFinal();
                 prElects += elec.PrecioBase;
