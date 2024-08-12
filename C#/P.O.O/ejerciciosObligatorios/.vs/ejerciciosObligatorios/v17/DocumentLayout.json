@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{544202EF-5C45-4365-9AA6-0072339C8CD8}|ej3\\ej3.csproj|solutionrelative:ej3\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{544202EF-5C45-4365-9AA6-0072339C8CD8}|ej3\\ej3.csproj|c:\\users\\bauti\\documents\\github\\programming\\c#\\p.o.o\\ejerciciosobligatorios\\ej3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4945D90E-51BB-4D24-B345-5BCD02E984BF}|ej2\\ej2.csproj|c:\\users\\bauti\\documents\\github\\programming\\c#\\p.o.o\\ejerciciosobligatorios\\ej2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4945D90E-51BB-4D24-B345-5BCD02E984BF}|ej2\\ej2.csproj|solutionrelative:ej2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544202EF-5C45-4365-9AA6-0072339C8CD8}|ej3\\ej3.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{544202EF-5C45-4365-9AA6-0072339C8CD8}|ej3\\ej3.csproj|solutionrelative:ej3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,17 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej2\\Persona.cs",
+              "RelativeDocumentMoniker": "ej2\\Persona.cs",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej2\\Persona.cs",
+              "RelativeToolTip": "ej2\\Persona.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T12:46:42.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej3\\Program.cs",
               "RelativeDocumentMoniker": "ej3\\Program.cs",
               "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej3\\Program.cs",
               "RelativeToolTip": "ej3\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T00:19:04.686Z",
               "EditorCaption": ""
@@ -41,7 +58,7 @@
               "RelativeDocumentMoniker": "ej3\\Password.cs",
               "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej3\\Password.cs",
               "RelativeToolTip": "ej3\\Password.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T00:24:59.985Z",
               "EditorCaption": ""
