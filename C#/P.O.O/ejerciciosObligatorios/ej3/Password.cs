@@ -15,13 +15,12 @@ namespace ej3
         public int Longitud { get { return longitud; } set { longitud = value; } }
         public string Contraseña { get { return contraseña; } set { contraseña = value; } }
 
-        public Password(string C)
+        public Password()
         {
-            this.contraseña = C;
         }
         public Password(int L)
         {
-            this.longitud = L;
+            Longitud = L;
         }
 
         public bool EsFuerte()

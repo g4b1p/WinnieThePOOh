@@ -1,0 +1,7 @@
+C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej6\bin\Debug\ej6.exe.config
+C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej6\bin\Debug\ej6.exe
+C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej6\bin\Debug\ej6.pdb
+C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej6\obj\Debug\ej6.csproj.AssemblyReference.cache
+C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej6\obj\Debug\ej6.csproj.CoreCompileInputs.cache
+C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej6\obj\Debug\ej6.exe
+C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej6\obj\Debug\ej6.pdb

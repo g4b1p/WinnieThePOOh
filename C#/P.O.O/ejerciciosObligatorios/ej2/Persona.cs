@@ -28,18 +28,18 @@ namespace ej2
         }
         public Persona(string N, int E, char S)
         {
-            this.Nombre = N;
-            this.Edad = E;
-            this.Sexo = S;
+            Nombre = N;
+            Edad = E;
+            Sexo = S;
         }
         public Persona(string N, int E, char S, int D, double P, double A)
         {
-            this.Nombre = N;
-            this.Edad = E;
-            this.Sexo = S;
-            this.DNI = D;
-            this.Peso = P;
-            this.Altura = A;
+            Nombre = N;
+            Edad = E;
+            Sexo = S;
+            DNI = D;
+            Peso = P;
+            Altura = A;
         }
 
         public int CalcularIMC(double pes, double alt)
@@ -78,9 +78,17 @@ namespace ej2
         }
         public void GenerarDNI()
         {
+            int pos = 0;
+            char[] ldienai = {'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
             Random r = new Random();
             int dienai = r.Next(00000000,99999999);
-            DNI = dienai;
+            foreach (char a in ldienai)
+            {
+                if (dienai % 23 == pos)
+                {
+                    //DNI = dienai.Concat(a);
+                }
+            }
         }
         public void MostrarDetalles()
         {
@@ -93,23 +101,23 @@ namespace ej2
         }
         public void SetNombre(string N)
         {
-            this.Nombre = N;
+            Nombre = N;
         }
         public void SetEdad(int E)
         {
-            this.Edad = E;
+            Edad = E;
         }
         public void SetSexo(char S)
         {
-            this.Sexo = S;
+            Sexo = S;
         }
         public void SetPeso(double P)
         {
-            this.Peso = P;
+            Peso = P;
         }
         public void SetAltura(double A)
         {
-            this.Altura = A;
+            Altura = A;
         }
     }
 }
