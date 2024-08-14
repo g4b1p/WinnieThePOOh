@@ -13,7 +13,7 @@ namespace ej2
             List<Persona> Personas = new List<Persona>();
             Persona p1 = new Persona();
             Persona p2 = new Persona("Juan Carlos IV", 45, 'H');
-            Persona p3 = new Persona("Maria Laura", 21, 'M', 48919226, 64, 1.72);
+            Persona p3 = new Persona("Maria Laura", 21, 'M', "48919226W", 64, 1.72);
             Personas.Add(p1);
             Personas.Add(p2);
             Personas.Add(p3);

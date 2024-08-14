@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,28 +12,29 @@ namespace ej2
         string nombre;
         int edad;
         char sexo;
-        int dni;
+        string dni;
         double peso;
         double altura;
 
         public string Nombre { get { return nombre; } set { nombre = value; } }
         public int Edad { get { return edad; } set { edad = value; } }
         public char Sexo { get { return sexo; } set { sexo = value; } }
-        public int DNI { get { return dni; } set { dni = value; } }
+        public string DNI { get { return dni; } set { dni = value; } }
         public double Peso { get { return peso; } set { peso = value; } }
         public double Altura { get { return altura; } set { altura = value; } }
         
         public Persona()
         {
-
+            GenerarDNI();
         }
         public Persona(string N, int E, char S)
         {
             Nombre = N;
             Edad = E;
             Sexo = S;
+            GenerarDNI();
         }
-        public Persona(string N, int E, char S, int D, double P, double A)
+        public Persona(string N, int E, char S, string D, double P, double A)
         {
             Nombre = N;
             Edad = E;
@@ -78,15 +80,15 @@ namespace ej2
         }
         public void GenerarDNI()
         {
-            int pos = 0;
-            char[] ldienai = {'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
+            char[] letras = {'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E'};
             Random r = new Random();
-            int dienai = r.Next(00000000,99999999);
-            foreach (char a in ldienai)
+            int dienai = r.Next(00000000, 99999999);
+            for (int i = 0; i <= 23; i++)
             {
-                if (dienai % 23 == pos)
+                if (dienai % 23 == i)
                 {
-                    //DNI = dienai.Concat(a);
+                  DNI = dienai.ToString();
+                  DNI += letras[i];
                 }
             }
         }
