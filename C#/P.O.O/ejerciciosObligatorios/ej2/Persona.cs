@@ -34,14 +34,14 @@ namespace ej2
             Sexo = S;
             GenerarDNI();
         }
-        public Persona(string N, int E, char S, string D, double P, double A)
+        public Persona(string N, int E, char S, double P, double A)
         {
             Nombre = N;
             Edad = E;
             Sexo = S;
-            DNI = D;
             Peso = P;
             Altura = A;
+            GenerarDNI();
         }
 
         public int CalcularIMC(double pes, double alt)
