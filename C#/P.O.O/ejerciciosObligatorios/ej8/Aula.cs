@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,19 +9,12 @@ namespace ej8
 {
     internal class Aula
     {
-        string nombre;
-        int edad;
-        char sexo;
+        int idau;
+        int estmax;
+        string matdest;
 
-        public string Nombre {  get { return nombre; } set { nombre = value; } }
-        public int Edad { get { return edad; } set { edad = value; } }
-        public char Sexo { get { return sexo; } set { sexo = value; } }
-
-        public Aula(string N, int E, char S)
-        {
-            Nombre = N;
-            Edad = E;
-            Sexo = S;
-        }
+        public int IDau { get { return idau; } set { idau = value; } }
+        public int Estmax { get { return estmax; } set { estmax = value; } }
+        public string Matdest { get { return matdest; } set { matdest = value; } }
     }
 }

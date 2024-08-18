@@ -27,7 +27,7 @@ namespace ej4
             Resolucion = R;
             SintonizadorTDT = S;
         }
-        public override void PrecioFinal()
+        public override double PrecioFinal()
         {
             base.PrecioFinal();
             if (Resolucion > 40)
@@ -35,8 +35,16 @@ namespace ej4
                 PrecioBase += (PrecioBase * 30) / 100;
                 if(SintonizadorTDT == true)
                 {
-                    PrecioBase += 50;
+                    return PrecioBase + 50;
                 }
+                else
+                {
+                    return base.PrecioFinal();
+                }
+            }
+            else
+            {
+                return base.PrecioFinal();
             }
         }
         int GetResolucion()

@@ -22,12 +22,16 @@ namespace ej4
             Carga = Car;
         }
 
-        public override void PrecioFinal()
+        public override double PrecioFinal()
         {
             base.PrecioFinal();
             if (Carga > 30)
             {
-                PrecioBase += 50;
+                return PrecioBase + 50;
+            }
+            else
+            {
+                return base.PrecioFinal();
             }
         }
         double GetCarga()

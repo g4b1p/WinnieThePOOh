@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace ej8
 {
-    internal class Profesor : IAtributosComunes
+    internal class Profesor : Instituto
     {
         string materia;
-        string Materia { get { return materias} set { materia} };
+        public string Materia { get { return materia; } set { materia = value; } }
+
+        public Profesor(string M, string N, int E, char S) : base (N, E, S)
+        {
+            Materia = M;
+        }
     }
 }
