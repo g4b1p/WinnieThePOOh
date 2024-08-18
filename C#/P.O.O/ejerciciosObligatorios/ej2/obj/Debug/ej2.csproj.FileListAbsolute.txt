@@ -5,3 +5,10 @@ C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej2\
 C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej2\obj\Debug\ej2.csproj.CoreCompileInputs.cache
 C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej2\obj\Debug\ej2.exe
 C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej2\obj\Debug\ej2.pdb
+F:\bauchi\programming\C#\P.O.O\ejerciciosObligatorios\ej2\bin\Debug\ej2.exe.config
+F:\bauchi\programming\C#\P.O.O\ejerciciosObligatorios\ej2\bin\Debug\ej2.exe
+F:\bauchi\programming\C#\P.O.O\ejerciciosObligatorios\ej2\bin\Debug\ej2.pdb
+F:\bauchi\programming\C#\P.O.O\ejerciciosObligatorios\ej2\obj\Debug\ej2.csproj.AssemblyReference.cache
+F:\bauchi\programming\C#\P.O.O\ejerciciosObligatorios\ej2\obj\Debug\ej2.csproj.CoreCompileInputs.cache
+F:\bauchi\programming\C#\P.O.O\ejerciciosObligatorios\ej2\obj\Debug\ej2.exe
+F:\bauchi\programming\C#\P.O.O\ejerciciosObligatorios\ej2\obj\Debug\ej2.pdb

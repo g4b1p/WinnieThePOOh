@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\",
+  "WorkspaceRootPath": "F:\\bauchi\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej8\\ej8.csproj|c:\\users\\bauti\\documents\\github\\programming\\c#\\p.o.o\\ejerciciosobligatorios\\ej8\\aula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej8\\ej8.csproj|solutionrelative:ej8\\aula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4945D90E-51BB-4D24-B345-5BCD02E984BF}|ej2\\ej2.csproj|f:\\bauchi\\programming\\c#\\p.o.o\\ejerciciosobligatorios\\ej2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4945D90E-51BB-4D24-B345-5BCD02E984BF}|ej2\\ej2.csproj|solutionrelative:ej2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej8\\ej8.csproj|c:\\users\\bauti\\documents\\github\\programming\\c#\\p.o.o\\ejerciciosobligatorios\\ej8\\instituto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej8\\ej8.csproj|solutionrelative:ej8\\instituto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej8\\ej8.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej8\\ej8.csproj|solutionrelative:ej8\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej8\\ej8.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej8\\ej8.csproj|solutionrelative:ej8\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej8\\ej8.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej8\\ej8.csproj|solutionrelative:ej8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4945D90E-51BB-4D24-B345-5BCD02E984BF}|ej2\\ej2.csproj|f:\\bauchi\\programming\\c#\\p.o.o\\ejerciciosobligatorios\\ej2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4945D90E-51BB-4D24-B345-5BCD02E984BF}|ej2\\ej2.csproj|solutionrelative:ej2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,34 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\Program.cs",
-              "RelativeDocumentMoniker": "ej8\\Program.cs",
-              "ToolTip": "ej8/Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "ej8",
-              "OverriddenToolTip": "ej8/Program.cs",
-              "WhenOpened": "2024-08-12T21:35:28.271Z",
-              "IsPinned": true
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Instituto.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\Instituto.cs",
-              "RelativeDocumentMoniker": "ej8\\Instituto.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\Instituto.cs",
-              "RelativeToolTip": "ej8\\Instituto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T20:23:01.208Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -66,40 +51,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Aula.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\Aula.cs",
-              "RelativeDocumentMoniker": "ej8\\Aula.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\Aula.cs",
-              "RelativeToolTip": "ej8\\Aula.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABSAAAA",
+              "Title": "Persona.cs",
+              "DocumentMoniker": "F:\\bauchi\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej2\\Persona.cs",
+              "RelativeDocumentMoniker": "ej2\\Persona.cs",
+              "ToolTip": "F:\\bauchi\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej2\\Persona.cs",
+              "RelativeToolTip": "ej2\\Persona.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAswCsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T21:48:37Z",
+              "WhenOpened": "2024-08-14T01:10:46.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Profesor.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\Profesor.cs",
-              "RelativeDocumentMoniker": "ej8\\Profesor.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\Profesor.cs",
-              "RelativeToolTip": "ej8\\Profesor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAYAAAA",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\bauchi\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej2\\Program.cs",
+              "RelativeDocumentMoniker": "ej2\\Program.cs",
+              "ToolTip": "F:\\bauchi\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej2\\Program.cs",
+              "RelativeToolTip": "ej2\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwA8AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T21:49:02.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Alumno.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\Alumno.cs",
-              "RelativeDocumentMoniker": "ej8\\Alumno.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej8\\Alumno.cs",
-              "RelativeToolTip": "ej8\\Alumno.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T21:52:42.715Z",
+              "WhenOpened": "2024-08-14T01:12:58.573Z",
               "EditorCaption": ""
             }
           ]
