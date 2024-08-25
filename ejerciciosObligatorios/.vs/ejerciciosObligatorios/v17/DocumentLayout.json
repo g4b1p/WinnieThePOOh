@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\",
+  "WorkspaceRootPath": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{62D2D53A-7766-4944-B1B4-C99AD579A190}|ej6\\ej6.csproj|c:\\users\\bauti\\documents\\github\\programming\\c#\\p.o.o\\ejerciciosobligatorios\\ej6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D2D53A-7766-4944-B1B4-C99AD579A190}|ej6\\ej6.csproj|solutionrelative:ej6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4945D90E-51BB-4D24-B345-5BCD02E984BF}|ej2\\ej2.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4945D90E-51BB-4D24-B345-5BCD02E984BF}|ej2\\ej2.csproj|solutionrelative:ej2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{62D2D53A-7766-4944-B1B4-C99AD579A190}|ej6\\ej6.csproj|c:\\users\\bauti\\documents\\github\\programming\\c#\\p.o.o\\ejerciciosobligatorios\\ej6\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62D2D53A-7766-4944-B1B4-C99AD579A190}|ej6\\ej6.csproj|solutionrelative:ej6\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4945D90E-51BB-4D24-B345-5BCD02E984BF}|ej2\\ej2.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4945D90E-51BB-4D24-B345-5BCD02E984BF}|ej2\\ej2.csproj|solutionrelative:ej2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544202EF-5C45-4365-9AA6-0072339C8CD8}|ej3\\ej3.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej3\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{544202EF-5C45-4365-9AA6-0072339C8CD8}|ej3\\ej3.csproj|solutionrelative:ej3\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,14 +28,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej6\\Program.cs",
-              "RelativeDocumentMoniker": "ej6\\Program.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej6\\Program.cs",
-              "RelativeToolTip": "ej6\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
+              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej2\\Program.cs",
+              "RelativeDocumentMoniker": "ej2\\Program.cs",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej2\\Program.cs",
+              "RelativeToolTip": "ej2\\Program.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwDIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "ej6",
-              "WhenOpened": "2024-08-20T19:08:35.484Z",
+              "WhenOpened": "2024-08-25T17:45:11.017Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -66,14 +69,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Libro.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej6\\Libro.cs",
-              "RelativeDocumentMoniker": "ej6\\Libro.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\programming\\C#\\P.O.O\\ejerciciosObligatorios\\ej6\\Libro.cs",
-              "RelativeToolTip": "ej6\\Libro.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej2\\Persona.cs",
+              "RelativeDocumentMoniker": "ej2\\Persona.cs",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej2\\Persona.cs",
+              "RelativeToolTip": "ej2\\Persona.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAswA0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T19:19:05.379Z",
+              "WhenOpened": "2024-08-25T17:51:44.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Password.cs",
+              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej3\\Password.cs",
+              "RelativeDocumentMoniker": "ej3\\Password.cs",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej3\\Password.cs",
+              "RelativeToolTip": "ej3\\Password.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwDcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T17:06:31.82Z",
               "EditorCaption": ""
             }
           ]

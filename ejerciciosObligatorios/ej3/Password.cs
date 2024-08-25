@@ -55,7 +55,34 @@ namespace ej3
         }
         public void GenerarContraseña()
         {
+            char[] letrasMa = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
+            char[] letrasMi = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
+            char[] nums = { '0', '1', '2', '3','4','5','6','7','8', '9' };
+            Random r = new Random();
+            int siLetras = r.Next(0,1);
+            int siMayus = r.Next(0, 1);
+            int siNums = r.Next(0, 1);
 
+            char[] contraseña = new char[longitud];
+
+            for (int i = 0; i < longitud; i++)
+            {
+                if (siLetras == 1)
+                {
+                    if (siMayus == 1)
+                    {
+                        contraseña[i] = letrasMa[r.Next(0, 26)];
+                    }
+                    else
+                    {
+                        contraseña[i] = letrasMi[r.Next(0, 26)];
+                    }
+                }
+                if(siNums == 1)
+                {
+                    contraseña[i] = nums[r.Next (0, 9)];
+                }
+            }
         }
     }
 }

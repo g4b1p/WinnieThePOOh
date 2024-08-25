@@ -11,27 +11,54 @@ namespace ej2
         static void Main(string[] args)
         {
             List<Persona> Personas = new List<Persona>();
-            Persona p1 = new Persona();
-            Persona p2 = new Persona("Juan Carlos IV", 45, 'H');
-            Persona p3 = new Persona("Maria Laura", 21, 'M', 64, 1.72);
-            Personas.Add(p1);
-            Personas.Add(p2);
-            Personas.Add(p3);
 
-            Console.WriteLine("Ingrese los datos correspondientes en el siguiente orden: Nombre, Edad, Sexo, Peso, Altura");
-            p1.SetNombre(Console.ReadLine());
-            p1.SetEdad(int.Parse(Console.ReadLine()));
-            p1.SetSexo(char.Parse(Console.ReadLine()));
-            p1.GenerarDNI();
-            p1.SetPeso(double.Parse(Console.ReadLine()));
-            p1.SetAltura(double.Parse(Console.ReadLine()));
+            Console.WriteLine("Bienvenido");
+            Console.WriteLine("¿Cuántas personas va a ingresar?");
+            int cantP = int.Parse(Console.ReadLine());
+            Console.WriteLine("Personas a ingresar: " + cantP);
+            for (int i = 1; i <= cantP; i++)
+            {
+                Console.WriteLine("Constructor de la persona " + i + "? 1 (por defecto), 2 (Nombre, Edad, Sexo), 3 (todo)");
+                int decision = int.Parse(Console.ReadLine());
+                switch (decision)
+                {
+                    case 1:
+                        Console.WriteLine("Constructor predeterminado (vacio)");
+                        Personas.Add(new Persona());
+                        Personas[i-1].SetNombre("Juan");
+                        Personas[i-1].SetEdad(18);
+                        Personas[i-1].SetSexo('H');
+                        Personas[i-1].SetPeso(60);
+                        Personas[i-1].SetAltura(1.70);
 
-            Console.WriteLine("Ingrese los datos correspondientes en el siguiente orden: Peso, Altura");
-            p2.GenerarDNI();
-            p2.SetPeso(double.Parse(Console.ReadLine()));
-            p2.SetAltura(double.Parse(Console.ReadLine()));
+                        break;
+                    case 2:
+                        Console.WriteLine("Constructor basico (Nombre, Edad, Sexo)");
+                        Console.WriteLine("Ingrese los valores en el siguiente orden: N, E, S");
+                        Personas.Add(new Persona(Console.ReadLine(), int.Parse(Console.ReadLine()), char.Parse(Console.ReadLine())));
+                        Personas[i-1].SetPeso(60);
+                        Personas[i-1].SetAltura(1.70);
+                        break;
+                    case 3:
+                        Console.WriteLine("Constructor completo (Nombre, Edad, Sexo, Peso, Altura)");
+                        Console.WriteLine("Ingrese los valores en el siguiente orden: N, E, S, P, A");
+                        Personas.Add(new Persona(Console.ReadLine(), int.Parse(Console.ReadLine()), char.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine())));
+                        break;
+                }
+            }
 
             foreach(Persona p in Personas) {
+                Console.WriteLine();
+                p.MostrarDetalles();
+                p.ComprobarSexo(p.Sexo);
+                if (p.EsMayorEdad(p.Edad) == true)
+                {
+                    Console.WriteLine($"{p.Nombre} Es mayor de edad");
+                }
+                else
+                {
+                    Console.WriteLine($"{p.Nombre} No es mayor de edad");
+                }
                 if (p.CalcularIMC(p.Peso, p.Altura) == -1)
                 {
                     Console.WriteLine($"{p.Nombre} Está en el peso ideal");
@@ -44,20 +71,7 @@ namespace ej2
                 {
                     Console.WriteLine($"{p.Nombre} Tiene flacura");
                 }
-                if (p.EsMayorEdad(p.Edad) == true)
-                {
-                    Console.WriteLine($"{p.Nombre} Es mayor de edad");
-                }
-                else
-                {
-                    Console.WriteLine($"{p.Nombre} No es mayor de edad");
-                }
-                p.ComprobarSexo(p.Sexo);
             }
-
-            p1.MostrarDetalles();
-            p2.MostrarDetalles();
-            p3.MostrarDetalles();
 
             Console.ReadKey();
         }

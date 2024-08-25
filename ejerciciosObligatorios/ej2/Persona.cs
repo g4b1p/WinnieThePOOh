@@ -9,12 +9,12 @@ namespace ej2
 {
     internal class Persona
     {
-        string nombre;
-        int edad;
-        char sexo;
+        string nombre = "";
+        int edad = 0;
+        char sexo = 'H';
         string dni;
-        double peso;
-        double altura;
+        double peso = 0;
+        double altura = 0;
 
         public string Nombre { get { return nombre; } set { nombre = value; } }
         public int Edad { get { return edad; } set { edad = value; } }
@@ -29,18 +29,18 @@ namespace ej2
         }
         public Persona(string N, int E, char S)
         {
-            Nombre = N;
-            Edad = E;
-            Sexo = S;
+            nombre = N;
+            edad = E;
+            sexo = S;
             GenerarDNI();
         }
         public Persona(string N, int E, char S, double P, double A)
         {
-            Nombre = N;
-            Edad = E;
-            Sexo = S;
-            Peso = P;
-            Altura = A;
+            nombre = N;
+            edad = E;
+            sexo = S;
+            peso = P;
+            altura = A;
             GenerarDNI();
         }
 
