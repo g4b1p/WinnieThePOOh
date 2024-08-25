@@ -63,7 +63,7 @@ namespace ej3
             int siMayus = r.Next(0, 1);
             int siNums = r.Next(0, 1);
 
-            char[] contraseña = new char[longitud];
+            char[] formContraseña = new char[longitud];
 
             for (int i = 0; i < longitud; i++)
             {
@@ -71,18 +71,19 @@ namespace ej3
                 {
                     if (siMayus == 1)
                     {
-                        contraseña[i] = letrasMa[r.Next(0, 26)];
+                        formContraseña[i] = letrasMa[r.Next(0, 26)];
                     }
                     else
                     {
-                        contraseña[i] = letrasMi[r.Next(0, 26)];
+                        formContraseña[i] = letrasMi[r.Next(0, 26)];
                     }
                 }
                 if(siNums == 1)
                 {
-                    contraseña[i] = nums[r.Next (0, 9)];
+                    formContraseña[i] = nums[r.Next (0, 9)];
                 }
             }
+            contraseña = string.Concat(formContraseña);
         }
     }
 }

@@ -5,3 +5,10 @@ C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej3\
 C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej3\obj\Debug\ej3.csproj.CoreCompileInputs.cache
 C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej3\obj\Debug\ej3.exe
 C:\Users\BAUTI\Documents\GitHub\programming\C#\P.O.O\ejerciciosObligatorios\ej3\obj\Debug\ej3.pdb
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej3\bin\Debug\ej3.exe.config
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej3\bin\Debug\ej3.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej3\bin\Debug\ej3.pdb
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej3\obj\Debug\ej3.csproj.AssemblyReference.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej3\obj\Debug\ej3.csproj.CoreCompileInputs.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej3\obj\Debug\ej3.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej3\obj\Debug\ej3.pdb
