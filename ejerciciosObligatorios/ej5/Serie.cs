@@ -49,10 +49,20 @@ namespace ej5
         {
             return Entregado;
         }
-        /*public void CompareTo(Object a)
+        public int compareTo( a)
         {
-            NumTemps = int.Parse(string.Format("{0}", a));
-        } Help, portero lo sacó de star overflow */
+            int estado = -1;
+            if (numTemps > a.numTemps)
+            {
+                estado = 1;
+            }
+            else if (numTemps == a.numTemps)
+            {
+                estado = 0;
+            }
+
+            return estado;
+        }
         public void SetTitulo(string T)
         {
             Titulo = T;
