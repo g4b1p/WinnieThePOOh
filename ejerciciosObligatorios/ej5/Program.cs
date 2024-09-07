@@ -14,22 +14,22 @@ namespace ej5
             List<Serie> series = new List<Serie>();
             List<Videojuego> juegos = new List<Videojuego>();
 
-            Serie s1 = new Serie();
-            Serie s2 = new Serie();
-            Serie s3 = new Serie();
-            Serie s4 = new Serie();
-            Serie s5 = new Serie();
+            Serie s1 = new Serie("Madoka Magica", 3, "Mahou Shoujo", "Gen Urobochi");
+            Serie s2 = new Serie("Higurashi", 2, "Psycho","Ryukishi07");
+            Serie s3 = new Serie("Umineko", 2, "Murder Mystery", "Ryukishi07");
+            Serie s4 = new Serie("Evangelion", 1, "Shounen", "Hideaki Anno");
+            Serie s5 = new Serie("Lain", 1, "Phylo", "Yoshitoshi Abe");
             series.Add(s1);
             series.Add(s2);
             series.Add(s3);
             series.Add(s4);
             series.Add(s5);
 
-            Videojuego j1 = new Videojuego();
-            Videojuego j2 = new Videojuego();
-            Videojuego j3 = new Videojuego();
-            Videojuego j4 = new Videojuego();
-            Videojuego j5 = new Videojuego();
+            Videojuego j1 = new Videojuego("Undertale", 6, "RPG", "Toby Fox");
+            Videojuego j2 = new Videojuego("Dying Light", 30, "Zombie Parkour RPG", "Techland");
+            Videojuego j3 = new Videojuego("Yume Nikki", 5, "Puzzle", "kikiyama");
+            Videojuego j4 = new Videojuego("Lobotomy Corporation", 10, "Management", "Project Moon");
+            Videojuego j5 = new Videojuego("Watch Dogs", 30, "Open World", "Ubisoft");
             juegos.Add(j1);
             juegos.Add(j2);
             juegos.Add(j3);
@@ -43,12 +43,24 @@ namespace ej5
 
             int cantL = 0;
             int cantV = 0;
-            foreach(Serie s in series)
+            Serie lSerie;
+            for (int i = 0; i < series.Count; i++)
             {
-                if (s.IsEntregado() == true)
+                if (series[i].IsEntregado() == true)
                 {
                     cantL++;
-                    s.Devolver();
+                    series[i].Devolver();
+                }
+                if (i < series.Count)
+                {
+                    if (series[i].compareTo(series[i + 1]) == 1)
+                    {
+                       lSerie = series[i];
+                    }
+                }
+                else
+                {
+                    lSerie.ToString;
                 }
             }
             foreach (Videojuego v in juegos)
@@ -60,7 +72,7 @@ namespace ej5
                 }
             }
 
-            //falta el CompareTo (preguntar al profe)
+            
         }
     }
 }
