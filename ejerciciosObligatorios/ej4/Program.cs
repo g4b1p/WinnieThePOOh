@@ -10,38 +10,18 @@ namespace ej4
     {
         static void Main(string[] args)
         {
-            //Electrodomesticos[] electrodomesticos = {};
-            List<Electrodomestico> electrodomesticos = new List<Electrodomestico>();
-
-            Lavadora lav1 = new Lavadora();
-            Lavadora lav2 = new Lavadora();
-            Lavadora lav3 = new Lavadora();
-            Lavadora lav4 = new Lavadora();
-            Lavadora lav5 = new Lavadora();
-            electrodomesticos.Add(lav1);
-            electrodomesticos.Add(lav2);
-            electrodomesticos.Add(lav3);
-            electrodomesticos.Add(lav4);
-            electrodomesticos.Add(lav5);
-
-            Television tv1 = new Television();
-            Television tv2 = new Television();
-            Television tv3 = new Television();
-            Television tv4 = new Television();
-            Television tv5 = new Television();
-            electrodomesticos.Add(tv1);
-            electrodomesticos.Add(tv2);
-            electrodomesticos.Add(tv3);
-            electrodomesticos.Add(tv4);
-            electrodomesticos.Add(tv5);
-
-            double prElects = 0;
-            foreach(Electrodomestico elec in electrodomesticos)
+            Electrodomestico[] electrodomesticos = new Electrodomestico[10];
+            for (int i = 0; i < 10; i++)
             {
-                elec.PrecioFinal();
-                prElects += elec.PrecioBase;
+                Random r = new Random();
+                int siSale = r.Next(0, 2);
+                if (siSale == 0)
+                    electrodomesticos[i] = new Television();
+                else
+                    electrodomesticos[i] = new Lavadora();
+
+                Console.WriteLine($"El electrodomestico tiene un precio final de: {electrodomesticos[i].PrecioFinal()}");
             }
-            Console.WriteLine(prElects);
             Console.ReadKey();
         }
     }
