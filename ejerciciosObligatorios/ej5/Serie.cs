@@ -49,7 +49,7 @@ namespace ej5
         {
             return Entregado;
         }
-        public int compareTo( a)
+        public int CompareTo(Object a)
         {
             int estado = -1;
             if (numTemps > a.numTemps)

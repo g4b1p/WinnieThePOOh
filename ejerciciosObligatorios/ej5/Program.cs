@@ -53,14 +53,14 @@ namespace ej5
                 }
                 if (i < series.Count)
                 {
-                    if (series[i].compareTo(series[i + 1]) == 1)
+                    if (series[i].CompareTo(series[i + 1]) == 1)
                     {
                        lSerie = series[i];
                     }
                 }
                 else
                 {
-                    lSerie.ToString;
+                    lSerie.ToString();
                 }
             }
             foreach (Videojuego v in juegos)

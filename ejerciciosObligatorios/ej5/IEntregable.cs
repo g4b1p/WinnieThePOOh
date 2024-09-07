@@ -11,6 +11,6 @@ namespace ej5
         void Entregar();
         void Devolver();
         bool IsEntregado();
-        int compareTo(Object a);
+        int CompareTo(Object a);
     }
 }

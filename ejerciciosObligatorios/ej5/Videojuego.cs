@@ -50,8 +50,8 @@ namespace ej5
         {
             return Entregado;
         }
-        public int compareTo(Videojuego a)
-        {
+        public int CompareTo(Object a)
+        { 
             int estado = -1;
             if (horasEstimadas > a.horasEstimadas)
             {
