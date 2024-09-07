@@ -10,32 +10,49 @@ namespace ej1
     public class Cuenta
     {
         string titular;
-        double cantidad;
+        double cantidad = 1000;
 
         public string Titular { get { return titular; } set { titular = value; } }
         public double Cantidad { get { return cantidad; } set { cantidad = value; } }
 
         public Cuenta(string T)
         {
-            Titular = T;
+            titular = T;
         }
         public Cuenta(string T, double C)
         {
-            Titular = T;
-            Cantidad = C;
+            titular = T;
+            cantidad = C;
+        }
+        public string GetTitular()
+        {
+            return titular;
+        }
+
+        public void SetTitular(string titular)
+        {
+            this.titular = titular;
+        }
+        public double GetCantidad()
+        {
+            return cantidad;
+        }
+        public void SetCantidad(double cantidad)
+        {
+            this.cantidad = cantidad;
         }
         public void Ingresar(double cant)
         {
             if (cant >= 0) { 
-                Cantidad += cant;
+                cantidad += cant;
             }
         }
         public void Retirar(double cant)
         {
-            Cantidad -= cant;
-            if (Cantidad < 0)
+            cantidad -= cant;
+            if (cantidad < 0)
             {
-                Cantidad = 0;
+                cantidad = 0;
             }
         }
     }
