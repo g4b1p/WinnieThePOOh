@@ -31,7 +31,10 @@ namespace ej3
                 }
                 passwords[i].GenerarContraseña();
                 sonFuertes[i] = passwords[i].EsFuerte();
-                Console.WriteLine($"{passwords[i].Contraseña} {sonFuertes[i]}");
+                if (sonFuertes[i] == true)
+                    Console.WriteLine($"Contraseña generada: {passwords[i].Contraseña} es fuerte");
+                else
+                    Console.WriteLine($"Contraseña generada: {passwords[i].Contraseña} es debil");
             }
 
             Console.ReadKey();

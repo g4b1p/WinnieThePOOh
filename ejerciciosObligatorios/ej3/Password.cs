@@ -59,28 +59,22 @@ namespace ej3
             char[] letrasMi = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' };
             char[] nums = { '0', '1', '2', '3','4','5','6','7','8', '9' };
             Random r = new Random();
-            int siLetras = r.Next(0,1);
-            int siMayus = r.Next(0, 1);
-            int siNums = r.Next(0, 1);
-
+            int siSale;
             char[] formContraseña = new char[longitud];
-
             for (int i = 0; i < longitud; i++)
             {
-                if (siLetras == 1)
+                siSale = r.Next(0, 3);
+                if (siSale == 0)
                 {
-                    if (siMayus == 1)
-                    {
-                        formContraseña[i] = letrasMa[r.Next(0, 26)];
-                    }
-                    else
-                    {
-                        formContraseña[i] = letrasMi[r.Next(0, 26)];
-                    }
+                    formContraseña[i] = letrasMa[r.Next(0, 26)];
                 }
-                if(siNums == 1)
+                else if(siSale == 1)
                 {
-                    formContraseña[i] = nums[r.Next (0, 9)];
+                    formContraseña[i] = letrasMi[r.Next(0, 26)];
+                }
+                if (siSale == 2)
+                {
+                    formContraseña[i] = nums[r.Next(0, 9)];
                 }
             }
             contraseña = string.Concat(formContraseña);
