@@ -26,75 +26,81 @@ namespace ej5
         }
         public Videojuego(string T, int H)
         {
-            Titulo = T;
-            HorasEstimadas = H;
+            titulo = T;
+            horasEstimadas = H;
 
         }
         public Videojuego(string T, int H, string G, string C)
         {
-            Titulo = T;
-            HorasEstimadas = H;
-            Genero = G;
-            Compañia = C;
+            titulo = T;
+            horasEstimadas = H;
+            genero = G;
+            compañia = C;
         }
 
         public void Entregar()
         {
-            Entregado = true;
+            entregado = true;
         }
         public void Devolver()
         {
-            Entregado = false;
+            entregado = false;
         }
         public bool IsEntregado()
         {
-            return Entregado;
+            return entregado;
         }
         public int CompareTo(Object a)
-        { 
+        {
             int estado = -1;
-            if (horasEstimadas > a.horasEstimadas)
-            {
+            //casting
+            Videojuego videojuego = a as Videojuego;
+            if (horasEstimadas > videojuego.horasEstimadas)
                 estado = 1;
-            }
-            else if (horasEstimadas == a.horasEstimadas)
-            {
+            else if (horasEstimadas == videojuego.horasEstimadas)
                 estado = 0;
-            }
 
             return estado;
         }
         public void SetTitulo(string T)
         {
-            Titulo = T;
+            titulo = T;
         }
         public void SetHorasEstimadas(int H)
         {
-            HorasEstimadas = H;
+            horasEstimadas = H;
         }
         public void SetGenero(string G)
         {
-            Genero = G;
+            genero = G;
         }
         public void SetCompañia(string C)
         {
-            Compañia = C;
+            compañia = C;
         }
         public string GetTitulo()
         {
-            return Titulo;
+            return titulo;
         }
         public int GetHorasEstimadas()
         {
-            return HorasEstimadas;
+            return horasEstimadas;
         }
         public string GetGenero()
         {
-            return Genero;
+            return genero;
         }
         public string GetCompañia()
         {
-            return Compañia;
+            return compañia;
+        }
+        public void MostrarDetalles()
+        {
+            Console.WriteLine("Detalles del juego:");
+            Console.WriteLine("\tTitulo: " + titulo);
+            Console.WriteLine("\tHoras Estimadas: " + horasEstimadas);
+            Console.WriteLine("\tGenero: " + genero);
+            Console.WriteLine("\tCreador: " + compañia);
         }
     }
 }

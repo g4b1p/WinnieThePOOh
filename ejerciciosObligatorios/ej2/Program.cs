@@ -11,7 +11,6 @@ namespace ej2
         static void Main(string[] args)
         {
             List<Persona> Personas = new List<Persona>();
-
             Console.WriteLine("Bienvenido");
             Console.WriteLine("¿Cuántas personas va a ingresar?");
             int cantP = int.Parse(Console.ReadLine());

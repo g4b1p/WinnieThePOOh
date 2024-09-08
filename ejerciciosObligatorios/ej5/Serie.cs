@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ej5
 {
     internal class Serie : IEntregable
-    {
+    { 
         string titulo = "";
         int numTemps = 3;
         bool entregado = false;
@@ -26,74 +26,80 @@ namespace ej5
         }
         public Serie(string T, string C)
         {
-            Titulo = T;
-            Creador = C;
+            titulo = T;
+            creador = C;
         }
         public Serie(string T, int N, string G, string C)
         {
-            Titulo = T;
-            NumTemps = N;
-            Genero = G;
-            Creador = C;
+            titulo = T;
+            numTemps = N;
+            genero = G;
+            creador = C;
         }
 
         public void Entregar()
         {
-            Entregado = true;
+            entregado = true;
         }
         public void Devolver()
         {
-            Entregado = false;
+            entregado = false;
         }
         public bool IsEntregado()
         {
-            return Entregado;
+            return entregado;
         }
         public int CompareTo(Object a)
-        {
+        { 
             int estado = -1;
-            if (numTemps > a.numTemps)
-            {
+        //casting (ME CAGO EN EL PUTO CASTING DE LOS COJONES)
+            Serie serie = a as Serie;
+            if (numTemps > serie.numTemps)
                 estado = 1;
-            }
-            else if (numTemps == a.numTemps)
-            {
+            else if (numTemps == serie.numTemps)
                 estado = 0;
-            }
 
             return estado;
         }
         public void SetTitulo(string T)
         {
-            Titulo = T;
+            titulo = T;
         }
         public void SetNumTemps(int N)
         {
-            NumTemps = N;
+            numTemps = N;
         }
         public void SetGenero(string G)
         {
-            Genero = G;
+            genero = G;
         }
         public void SetCreador(string C)
         {
-            Creador = C;
+            creador = C;
         }
         public string GetTitulo()
         {
-            return Titulo;
+            return titulo;
         }
         public int GetNumTemps()
         {
-            return NumTemps;
+            return numTemps;
         }
         public string GetGenero()
         {
-            return Genero;
+            return genero;
         }
         public string GetCreador()
         {
-            return Creador;
+            return creador;
+        }
+        public void MostrarDetalles()
+        {
+            Console.WriteLine("Detalles de la Serie:");
+            Console.WriteLine("\tTitulo: " + titulo);
+            Console.WriteLine("\tNumero de temporadas: " + numTemps);
+            Console.WriteLine("\tGenero: " + genero);
+            Console.WriteLine("\tCreador: " + creador);
         }
     }
 }

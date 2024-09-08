@@ -1,0 +1,7 @@
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej5\obj\Debug\ej5.csproj.AssemblyReference.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej5\obj\Debug\ej5.csproj.CoreCompileInputs.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej5\bin\Debug\ej5.exe.config
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej5\bin\Debug\ej5.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej5\bin\Debug\ej5.pdb
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej5\obj\Debug\ej5.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej5\obj\Debug\ej5.pdb
