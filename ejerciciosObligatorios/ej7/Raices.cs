@@ -9,46 +9,53 @@ namespace ej7
 {
     internal class Raices
     {
-        int a;
-        int b;
-        int c;
+        double a;
+        double b;
+        double c;
 
-        public int A { get { return a; } set { a = value; } }
-        public int B { get { return b; } set { b = value; } }
-        public int C { get { return c; } set { c = value; } }
-        public Raices(int Aa, int Bb, int Cc)
+        public double A { get { return a; } set { a = value; } }
+        public double B { get { return b; } set { b = value; } }
+        public double C { get { return c; } set { c = value; } }
+        public Raices(double Aa, double Bb, double Cc)
         {
-            A = Aa;
-            B = Bb;
-            C = Cc;
+            a = Aa;
+            b = Bb;
+            c = Cc;
         }
 
         public void ObtenerRaices()
         {
-            //(-B √((B ^ 2) - (4 * A * C)))/ (2 * A);       profe ayuda
+            double x1 = (-b + Math.Sqrt(GetDiscriminante())) / (2 * a);
+            double x2 = (-b - Math.Sqrt(GetDiscriminante())) / (2 * a);
+            Console.WriteLine($"x1 = {x1}");
+            Console.WriteLine($"x2 = {x2}");
         }
         public void ObtenerRaiz()
         {
-            // profe ayuda
+            double x = (-b) / (2 * a);
+
+            Console.WriteLine($"x = {x}");
         }
         public double GetDiscriminante()
         {
-            return (B ^ 2) - 4 * A * C;
+            return Math.Pow(b, 2) - 4 * a * c;
         }
         public bool TieneRaices()
         {
-            if (GetDiscriminante() >= 0)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return GetDiscriminante() > 0;
+        }
+        private bool TieneRaiz()
+        {
+            return GetDiscriminante() == 0;
         }
         public void Calcular()
         {
-
+            if (TieneRaices())
+                ObtenerRaices();
+            else if (TieneRaiz())
+                ObtenerRaiz();
+            else
+                Console.WriteLine("No tiene soluciones");
         }
     }
 }
