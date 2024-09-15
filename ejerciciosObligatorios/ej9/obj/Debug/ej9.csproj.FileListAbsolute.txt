@@ -1,0 +1,7 @@
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej9\bin\Debug\ej9.exe.config
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej9\bin\Debug\ej9.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej9\bin\Debug\ej9.pdb
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej9\obj\Debug\ej9.csproj.AssemblyReference.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej9\obj\Debug\ej9.csproj.CoreCompileInputs.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej9\obj\Debug\ej9.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej9\obj\Debug\ej9.pdb
