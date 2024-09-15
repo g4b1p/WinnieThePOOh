@@ -6,7 +6,7 @@ using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ej4
+namespace ej04
 {
     internal class Electrodomestico
     {

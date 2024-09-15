@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ej2
+namespace ej02
 {
     internal class Persona
     {

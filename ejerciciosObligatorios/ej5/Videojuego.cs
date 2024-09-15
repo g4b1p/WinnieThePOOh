@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ej5
+namespace ej05
 {
     internal class Videojuego : IEntregable
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ej6
+namespace ej06
 {
     internal class Libro
     {

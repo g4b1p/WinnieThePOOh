@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Schema;
 
-namespace ej9
+namespace ej09
 {
     internal class Espectador
     {
