@@ -10,10 +10,11 @@ namespace ej10
 
     internal class Program
     {
-        static List<Mazo> mazos = new List<Mazo>();
-        static List<Cartas> cartas = new List<Cartas>();
         static void Main(string[] args)
         {
+            List<Mazo> mazos = new List<Mazo>();
+            List<Cartas> cartas = new List<Cartas>();
+
             for (int i = 1; i <= 4; i++)
             {
                 for (int k = 1; k <= 12; k++)
@@ -31,7 +32,11 @@ namespace ej10
                     }
                 }
             }
-            Mazo mazo = new Mazo(cartas);
+
+            Mazo mazo = new Mazo(new List<Cartas>(cartas));
+            Mazo mazo2 = new Mazo(new List<Cartas>(cartas));
+            mazo.Barajar(cartas);
+            mazo2.MostrarDetalles(cartas);
             Console.ReadKey();
         }
     }
