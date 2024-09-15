@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7CC0626-15DB-4B06-9899-AAC2293D35C4}|ej10\\ej10.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7CC0626-15DB-4B06-9899-AAC2293D35C4}|ej10\\ej10.csproj|solutionrelative:ej10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DF61EFDE-7026-4452-AC00-C13EC3174968}|ej11\\ej11.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF61EFDE-7026-4452-AC00-C13EC3174968}|ej11\\ej11.csproj|solutionrelative:ej11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7CC0626-15DB-4B06-9899-AAC2293D35C4}|ej10\\ej10.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\mazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7CC0626-15DB-4B06-9899-AAC2293D35C4}|ej10\\ej10.csproj|solutionrelative:ej10\\mazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7CC0626-15DB-4B06-9899-AAC2293D35C4}|ej10\\ej10.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7CC0626-15DB-4B06-9899-AAC2293D35C4}|ej10\\ej10.csproj|solutionrelative:ej10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E7CC0626-15DB-4B06-9899-AAC2293D35C4}|ej10\\ej10.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\cartas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,20 +26,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\Program.cs",
+              "RelativeDocumentMoniker": "ej10\\Program.cs",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\Program.cs",
+              "RelativeToolTip": "ej10\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T02:38:13.249Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\Program.cs",
-              "RelativeDocumentMoniker": "ej10\\Program.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\Program.cs*",
-              "RelativeToolTip": "ej10\\Program.cs*",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAwCMAAAA7AAAA",
+              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej11\\Program.cs",
+              "RelativeDocumentMoniker": "ej11\\Program.cs",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej11\\Program.cs",
+              "RelativeToolTip": "ej11\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T02:38:13.249Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-09-15T21:47:53.528Z",
               "EditorCaption": ""
             },
             {
@@ -74,19 +91,19 @@
               "RelativeDocumentMoniker": "ej10\\Mazo.cs",
               "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\Mazo.cs",
               "RelativeToolTip": "ej10\\Mazo.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCQAAAA5AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wCQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T02:44:17.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Cartas.cs",
               "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\Cartas.cs",
               "RelativeDocumentMoniker": "ej10\\Cartas.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\Cartas.cs*",
-              "RelativeToolTip": "ej10\\Cartas.cs*",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\Cartas.cs",
+              "RelativeToolTip": "ej10\\Cartas.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAIwBgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "ej10",
