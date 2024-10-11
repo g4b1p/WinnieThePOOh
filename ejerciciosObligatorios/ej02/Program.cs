@@ -22,7 +22,7 @@ namespace ej02
                 switch (decision)
                 {
                     case 1:
-                        Console.WriteLine("Constructor predeterminado (vacio)");
+                        Console.WriteLine("Constructor predeterminado (vacio) seleccionado.");
                         Personas.Add(new Persona());
                         Personas[i-1].SetNombre("Juan");
                         Personas[i-1].SetEdad(18);
@@ -32,14 +32,14 @@ namespace ej02
 
                         break;
                     case 2:
-                        Console.WriteLine("Constructor basico (Nombre, Edad, Sexo)");
+                        Console.WriteLine("Constructor basico (Nombre, Edad, Sexo) seleccionado.");
                         Console.WriteLine("Ingrese los valores en el siguiente orden: N, E, S");
                         Personas.Add(new Persona(Console.ReadLine(), int.Parse(Console.ReadLine()), char.Parse(Console.ReadLine())));
                         Personas[i-1].SetPeso(60);
                         Personas[i-1].SetAltura(1.70);
                         break;
                     case 3:
-                        Console.WriteLine("Constructor completo (Nombre, Edad, Sexo, Peso, Altura)");
+                        Console.WriteLine("Constructor completo (Nombre, Edad, Sexo, Peso, Altura) seleccionado.");
                         Console.WriteLine("Ingrese los valores en el siguiente orden: N, E, S, P, A");
                         Personas.Add(new Persona(Console.ReadLine(), int.Parse(Console.ReadLine()), char.Parse(Console.ReadLine()), double.Parse(Console.ReadLine()), double.Parse(Console.ReadLine())));
                         break;
@@ -64,11 +64,11 @@ namespace ej02
                 }
                 else if (p.CalcularIMC(p.Peso, p.Altura) == 1)
                 {
-                    Console.WriteLine($"{p.Nombre} Tiene sobrepeso");
+                    Console.WriteLine($"{p.Nombre} Está por encima de su peso ideal");
                 }
                 else
                 {
-                    Console.WriteLine($"{p.Nombre} Tiene flacura");
+                    Console.WriteLine($"{p.Nombre} Está por debajo de su peso ideal");
                 }
             }
 
