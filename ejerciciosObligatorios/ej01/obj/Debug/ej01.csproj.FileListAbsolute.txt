@@ -1,0 +1,7 @@
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej01\bin\Debug\ej1.exe.config
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej01\bin\Debug\ej1.exe
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej01\bin\Debug\ej1.pdb
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej01\obj\Debug\ej01.csproj.AssemblyReference.cache
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej01\obj\Debug\ej01.csproj.CoreCompileInputs.cache
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej01\obj\Debug\ej1.exe
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej01\obj\Debug\ej1.pdb
