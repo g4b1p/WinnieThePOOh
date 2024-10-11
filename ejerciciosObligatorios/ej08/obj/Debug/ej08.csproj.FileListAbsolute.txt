@@ -1,0 +1,2 @@
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej08\obj\Debug\ej08.csproj.AssemblyReference.cache
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej08\obj\Debug\ej08.csproj.CoreCompileInputs.cache

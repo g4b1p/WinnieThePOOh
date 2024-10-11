@@ -1,0 +1,7 @@
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej05\bin\Debug\ej5.exe.config
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej05\bin\Debug\ej5.exe
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej05\bin\Debug\ej5.pdb
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej05\obj\Debug\ej05.csproj.AssemblyReference.cache
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej05\obj\Debug\ej05.csproj.CoreCompileInputs.cache
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej05\obj\Debug\ej5.exe
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej05\obj\Debug\ej5.pdb

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|f:\\bauchi\\winniethepooh\\ejerciciosobligatorios\\ej08\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|solutionrelative:ej08\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7CF2B1BF-F5CA-4216-8F38-7D786841DF69}|ej04\\ej04.csproj|f:\\bauchi\\winniethepooh\\ejerciciosobligatorios\\ej04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7CF2B1BF-F5CA-4216-8F38-7D786841DF69}|ej04\\ej04.csproj|solutionrelative:ej04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Alumno.cs",
+              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\Alumno.cs",
+              "RelativeDocumentMoniker": "ej08\\Alumno.cs",
+              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\Alumno.cs",
+              "RelativeToolTip": "ej08\\Alumno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T17:05:34.208Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -58,20 +75,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej04\\Program.cs",
               "RelativeDocumentMoniker": "ej04\\Program.cs",
               "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej04\\Program.cs",
               "RelativeToolTip": "ej04\\Program.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwCgAAAAMAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwD8AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T14:54:10.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Electrodomestico.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej04\\Electrodomestico.cs",
               "RelativeDocumentMoniker": "ej04\\Electrodomestico.cs",
@@ -84,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej03\\Program.cs",
               "RelativeDocumentMoniker": "ej03\\Program.cs",
@@ -97,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej02\\Program.cs",
               "RelativeDocumentMoniker": "ej02\\Program.cs",
