@@ -1,2 +1,7 @@
 F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej08\obj\Debug\ej08.csproj.AssemblyReference.cache
 F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej08\obj\Debug\ej08.csproj.CoreCompileInputs.cache
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej08\bin\Debug\ej08.exe.config
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej08\bin\Debug\ej08.exe
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej08\bin\Debug\ej08.pdb
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej08\obj\Debug\ej08.exe
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej08\obj\Debug\ej08.pdb

@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9D4D4E7C-5064-4469-8957-BED7BF08A170}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ej8</RootNamespace>
-    <AssemblyName>ej8</AssemblyName>
+    <RootNamespace>ej08</RootNamespace>
+    <AssemblyName>ej08</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,7 @@
     <Compile Include="Alumno.cs" />
     <Compile Include="Aula.cs" />
     <Compile Include="Instituto.cs" />
+    <Compile Include="IAsistencia.cs" />
     <Compile Include="Profesor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
