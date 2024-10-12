@@ -31,21 +31,24 @@ namespace ej12
         }
         public void Ronda()
         { 
-            foreach (Jugador j in jugadores)
+            while(FinJuego() == false) 
             {
-                j.Disparar(revolver);
-                revolver.Disparar();
-                revolver.MostrarDetalles();
-                if (revolver.Disparar() == true)
+                foreach (Jugador j in jugadores)
                 {
-                    Console.WriteLine($"El {j.Nombre} {j.ID} se ha disparado y ha muerto");
+                    j.Disparar(revolver);
+                    revolver.Disparar();
+                    revolver.MostrarDetalles();
+                    if (revolver.Disparar() == true)
+                    {
+                        Console.WriteLine($"El {j.Nombre} {j.ID} se ha disparado y ha muerto");
+                    }
+                    else
+                        Console.WriteLine($"El {j.Nombre} {j.ID} se ha disparado y sigue vivo");
+                    if (FinJuego() == true)
+                        break;
+                    else
+                        revolver.SiguienteBala();
                 }
-                else
-                    Console.WriteLine($"El {j.Nombre} {j.ID} se ha disparado y sigue vivo");
-                if (FinJuego() == true)
-                    break;
-                else
-                    revolver.SiguienteBala();
             }
         }
     }
