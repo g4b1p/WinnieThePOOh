@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\",
+  "WorkspaceRootPath": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|f:\\bauchi\\winniethepooh\\ejerciciosobligatorios\\ej08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|solutionrelative:ej08\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|solutionrelative:ej12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|solutionrelative:ej08\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej12\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|solutionrelative:ej12\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|solutionrelative:ej08\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej12\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|solutionrelative:ej12\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\iasistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|solutionrelative:ej08\\iasistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\aula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D4D4E7C-5064-4469-8957-BED7BF08A170}|ej08\\ej08.csproj|solutionrelative:ej08\\aula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej12\\revolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|solutionrelative:ej12\\revolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,13 +32,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\Program.cs",
-              "RelativeDocumentMoniker": "ej08\\Program.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\Program.cs",
-              "RelativeToolTip": "ej08\\Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB4AAAA9AAAA",
+              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Program.cs",
+              "RelativeDocumentMoniker": "ej12\\Program.cs",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Program.cs",
+              "RelativeToolTip": "ej12\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T00:38:43.938Z",
+              "WhenOpened": "2024-10-11T23:51:39.548Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -76,54 +72,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Aula.cs",
-              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\Aula.cs",
-              "RelativeDocumentMoniker": "ej08\\Aula.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\Aula.cs",
-              "RelativeToolTip": "ej08\\Aula.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAIwDMAAAAPAAAA",
+              "DocumentIndex": 1,
+              "Title": "Juego.cs",
+              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Juego.cs",
+              "RelativeDocumentMoniker": "ej12\\Juego.cs",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Juego.cs",
+              "RelativeToolTip": "ej12\\Juego.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T23:31:56.08Z",
+              "WhenOpened": "2024-10-12T01:44:13.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Profesor.cs",
-              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\Profesor.cs",
-              "RelativeDocumentMoniker": "ej08\\Profesor.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\Profesor.cs",
-              "RelativeToolTip": "ej08\\Profesor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAZAAAA",
+              "Title": "Jugador.cs",
+              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Jugador.cs",
+              "RelativeDocumentMoniker": "ej12\\Jugador.cs",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Jugador.cs",
+              "RelativeToolTip": "ej12\\Jugador.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T23:18:59.085Z",
+              "WhenOpened": "2024-10-12T01:01:31.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IAsistencia.cs",
-              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\IAsistencia.cs",
-              "RelativeDocumentMoniker": "ej08\\IAsistencia.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\IAsistencia.cs",
-              "RelativeToolTip": "ej08\\IAsistencia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Title": "Revolver.cs",
+              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Revolver.cs",
+              "RelativeDocumentMoniker": "ej12\\Revolver.cs",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Revolver.cs",
+              "RelativeToolTip": "ej12\\Revolver.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T23:17:21.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Alumno.cs",
-              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\Alumno.cs",
-              "RelativeDocumentMoniker": "ej08\\Alumno.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej08\\Alumno.cs",
-              "RelativeToolTip": "ej08\\Alumno.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wCEAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T17:05:34.208Z",
+              "WhenOpened": "2024-10-11T23:52:11.558Z",
               "EditorCaption": ""
             }
           ]
