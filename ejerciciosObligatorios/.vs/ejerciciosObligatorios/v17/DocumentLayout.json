@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|solutionrelative:ej12\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej12\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|solutionrelative:ej12\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej12\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|solutionrelative:ej12\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej12\\revolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|solutionrelative:ej12\\revolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92774291-88DF-45EA-BA0C-2A69B8731EA4}|ej12\\ej12.csproj|solutionrelative:ej12\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,22 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Program.cs",
-              "RelativeDocumentMoniker": "ej12\\Program.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Program.cs",
-              "RelativeToolTip": "ej12\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T23:51:39.548Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -72,39 +58,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Program.cs",
+              "RelativeDocumentMoniker": "ej12\\Program.cs",
+              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Program.cs",
+              "RelativeToolTip": "ej12\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T23:51:39.548Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Juego.cs",
               "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Juego.cs",
               "RelativeDocumentMoniker": "ej12\\Juego.cs",
               "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Juego.cs",
               "RelativeToolTip": "ej12\\Juego.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T01:44:13.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Jugador.cs",
               "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Jugador.cs",
               "RelativeDocumentMoniker": "ej12\\Jugador.cs",
               "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Jugador.cs",
               "RelativeToolTip": "ej12\\Jugador.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBIAAAAKAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T01:01:31.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T01:01:31.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Revolver.cs",
               "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Revolver.cs",
               "RelativeDocumentMoniker": "ej12\\Revolver.cs",
               "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej12\\Revolver.cs",
               "RelativeToolTip": "ej12\\Revolver.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCAAAAAdAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwCAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-11T23:52:11.558Z",
               "EditorCaption": ""

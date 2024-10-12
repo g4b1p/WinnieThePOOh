@@ -16,7 +16,7 @@ namespace ej12
                 jugadores.Add(new Jugador(i));
             }
             Random random = new Random();
-            Revolver revolver = new Revolver(random.Next(1, 9), random.Next(1, 9));
+            Revolver revolver = new Revolver(random.Next(1, 6), random.Next(1, 6));
 
             Juego juego = new Juego(jugadores, revolver);
             juego.Ronda();
