@@ -11,10 +11,11 @@ namespace ej11
         string nombre = "Jugador";
         int id;
         float dinero;
-
-        public string Nombre { get{ return nombre; } set{ nombre = value; } }
+        int rondasGanadas = 0;
+        public string Nombre { get { return nombre; } set { nombre = value; } }
         public int ID { get { return id; } set { id = value; } }
         public float Dinero { get { return dinero; } set { dinero = value; } }
+        public int RondasGanadas { get { return rondasGanadas; } set { rondasGanadas = value; } }
 
         public Jugador(int id, float dinero)
         {

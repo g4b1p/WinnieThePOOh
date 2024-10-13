@@ -11,10 +11,12 @@ namespace ej11
         List<Jugador> jugadores;
         Partido partido;
         float pozo;
+        bool terminado = false;
 
         public List<Jugador> Jugadores { get { return jugadores; } set { jugadores = value; } }
         public Partido Partido { get { return partido; } set { partido = value; } }
         public float Pozo { get { return pozo; } set { pozo = value; } }
+        public bool Terminado { get { return terminado; } set { terminado = value; } }
 
         public Juego(List<Jugador> jugadores, Partido partido)
         {
@@ -39,20 +41,35 @@ namespace ej11
                 }
             }
             Console.WriteLine($"RESULTADO: {result}");
-            foreach (Jugador j in jugadores)
+            if (jugadores.Count > 0)
             {
-                string apuesta = j.Resultado(r);
-                if (result == apuesta)
+                foreach (Jugador j in jugadores)
                 {
-                    j.Dinero += pozo;
-                    pozo = 0;
-                    Console.WriteLine($"El ganador fue: {j.Nombre} {j.ID}... {j.Nombre} {j.ID} cuenta ahora con ${j.Dinero}");
-                    break;
+                    string apuesta = j.Resultado(r);
+                    if (result == apuesta)
+                    {
+                        j.RondasGanadas++;
+                        Console.WriteLine($"El ganador fue: {j.Nombre} {j.ID}");
+                        if (j.RondasGanadas == 2)
+                        {
+
+                            j.Dinero += pozo;
+                            pozo = 0;
+                            Console.WriteLine($"GG {j.Nombre} {j.ID} te llevas el pozo!!... {j.Nombre} {j.ID} cuenta ahora con ${j.Dinero}");
+                            terminado = true;
+                        }
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{j.Nombre} {j.ID} no ganó la apuesta (su apuesta: {apuesta})");
+                    }
                 }
-                else
-                {
-                    Console.WriteLine($"{j.Nombre} {j.ID} no ganó la apuesta (su apuesta: {apuesta})");
-                }
+            }
+            else
+            {
+                Console.WriteLine("La casa se lleva el pozo");
+                terminado = true;
             }
         }
     }
