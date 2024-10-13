@@ -8,10 +8,32 @@ namespace ej11
 {
     internal class Jugador
     {
-        string nombre;
-        int dinero;
-        public string Nombre { get { return nombre; } set { nombre = value; } }
-        public int Dinero { get { return dinero; } set {dinero = value; } }
-        Jugador(string nombre, int dinero) { this.nombre = nombre; this.dinero = dinero; }
+        string nombre = "Jugador";
+        int id;
+        float dinero;
+
+        public string Nombre { get{ return nombre; } set{ nombre = value; } }
+        public int ID { get { return id; } set { id = value; } }
+        public float Dinero { get { return dinero; } set { dinero = value; } }
+
+        public Jugador(int id, float dinero)
+        {
+            this.id = id;
+            this.dinero = dinero;
+
+        }
+
+        public bool PuedeApostar()
+        {
+            if (dinero > 100)
+                return true;
+            else
+                return false;
+        }
+        public string Apuesta()
+        {
+            Random r = new Random();
+            return $"{r.Next(0, 6)}-{r.Next(0, 6)}";
+        } 
     }
 }
