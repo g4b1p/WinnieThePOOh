@@ -24,15 +24,13 @@ namespace ej11
 
             Juego juego = new Juego(jugadores, partido);
 
-            var t = Task.Run(async delegate
+            Task t = Task.Run(async delegate
             {
-                
                 while (juego.Terminado == false)
                 {
                     juego.Ronda(rnd);
                     await Task.Delay(1000);
                 }
-                return 42;
             });
             t.Wait();
 
