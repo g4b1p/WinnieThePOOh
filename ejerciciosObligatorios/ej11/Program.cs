@@ -8,13 +8,13 @@ namespace ej11
 {
     internal class Program
     {
+        static Random rnd = new Random();
         static void Main(string[] args)
         {
-            Random random = new Random();
             List<Jugador> jugadores = new List<Jugador>();
             for (int i = 1; i <= 5; i++)
             {
-                jugadores.Add(new Jugador(i, random.Next(500, 1001)));
+                jugadores.Add(new Jugador(i, rnd.Next(500, 1001)));
             }
 
             string[] equipos = { "San Lorenzo", "Huracan", "Boca", "River", "Independiente", "Racing", "Velez", "SacaChispas", "Los Andes" }; 
@@ -22,7 +22,7 @@ namespace ej11
 
             Juego juego = new Juego(jugadores, partido);
 
-            juego.Ronda();
+            juego.Ronda(rnd);
 
 
             Console.ReadKey();

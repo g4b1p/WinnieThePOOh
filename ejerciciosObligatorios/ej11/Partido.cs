@@ -16,14 +16,12 @@ namespace ej11
             this.equipos = equipos;
         }
 
-        public string Enfrentamiento()
+        public string Enfrentamiento(Random r)
         {
-            Random r = new Random();
             return $"{equipos[r.Next(0, equipos.Count())]} vs {equipos[r.Next(0, equipos.Count())]}";
         }
-        public string ResultadoPartido()
+        public string ResultadoPartido(Random r)
         {
-            Random r = new Random();
             return $"{r.Next(0,6)}-{r.Next(0,6)}";
         }
     }

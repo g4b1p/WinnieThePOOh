@@ -30,9 +30,8 @@ namespace ej11
             else
                 return false;
         }
-        public string Apuesta()
+        public string Apuesta(Random r)
         {
-            Random r = new Random();
             return $"{r.Next(0, 6)}-{r.Next(0, 6)}";
         } 
     }

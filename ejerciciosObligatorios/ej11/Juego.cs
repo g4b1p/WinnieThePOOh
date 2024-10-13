@@ -22,10 +22,10 @@ namespace ej11
             this.partido = partido;
         }
 
-        public void Ronda()
+        public void Ronda(Random r)
         {
-            string result = partido.ResultadoPartido();
-            Console.WriteLine($"El juego será entre: {partido.Enfrentamiento()}. Inicien sus apuestas");
+            string result = partido.ResultadoPartido(r);
+            Console.WriteLine($"El juego será entre: {partido.Enfrentamiento(r)}. Inicien sus apuestas");
             for (int i = jugadores.Count() - 1; i >= 0; i--)
             {
                 if (jugadores[i].PuedeApostar() == true)
@@ -41,7 +41,7 @@ namespace ej11
             Console.WriteLine($"RESULTADO: {result}");
             foreach (Jugador j in jugadores)
             {
-                string apuesta = j.Apuesta();
+                string apuesta = j.Apuesta(r);
                 if (result == apuesta)
                 {
                     j.Dinero += pozo;
