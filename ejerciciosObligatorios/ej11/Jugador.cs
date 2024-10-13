@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ej11
 {
-    internal class Jugador
+    internal class Jugador : IResultado
     {
         string nombre = "Jugador";
         int id;
@@ -30,7 +30,7 @@ namespace ej11
             else
                 return false;
         }
-        public string Apuesta(Random r)
+        public string Resultado(Random r)
         {
             return $"{r.Next(0, 6)}-{r.Next(0, 6)}";
         } 

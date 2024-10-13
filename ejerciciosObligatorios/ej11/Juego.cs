@@ -24,7 +24,7 @@ namespace ej11
 
         public void Ronda(Random r)
         {
-            string result = partido.ResultadoPartido(r);
+            string result = partido.Resultado(r);
             Console.WriteLine($"El juego será entre: {partido.Enfrentamiento(r)}. Inicien sus apuestas");
             for (int i = jugadores.Count() - 1; i >= 0; i--)
             {
@@ -41,7 +41,7 @@ namespace ej11
             Console.WriteLine($"RESULTADO: {result}");
             foreach (Jugador j in jugadores)
             {
-                string apuesta = j.Apuesta(r);
+                string apuesta = j.Resultado(r);
                 if (result == apuesta)
                 {
                     j.Dinero += pozo;
