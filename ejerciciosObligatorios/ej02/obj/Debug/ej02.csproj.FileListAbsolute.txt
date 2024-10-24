@@ -12,3 +12,10 @@ F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej02\obj\Debug\ej02.csproj.Assemb
 F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej02\obj\Debug\ej02.csproj.CoreCompileInputs.cache
 F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej02\obj\Debug\ej2.exe
 F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej02\obj\Debug\ej2.pdb
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej02\bin\Debug\ej2.exe.config
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej02\bin\Debug\ej2.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej02\bin\Debug\ej2.pdb
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej02\obj\Debug\ej02.csproj.AssemblyReference.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej02\obj\Debug\ej02.csproj.CoreCompileInputs.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej02\obj\Debug\ej2.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej02\obj\Debug\ej2.pdb

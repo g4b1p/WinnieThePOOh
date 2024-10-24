@@ -5,3 +5,10 @@ F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej04\obj\Debug\ej04.csproj.Assemb
 F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej04\obj\Debug\ej04.csproj.CoreCompileInputs.cache
 F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej04\obj\Debug\ej4.exe
 F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej04\obj\Debug\ej4.pdb
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej04\bin\Debug\ej4.exe.config
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej04\bin\Debug\ej4.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej04\bin\Debug\ej4.pdb
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej04\obj\Debug\ej04.csproj.AssemblyReference.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej04\obj\Debug\ej04.csproj.CoreCompileInputs.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej04\obj\Debug\ej4.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej04\obj\Debug\ej4.pdb

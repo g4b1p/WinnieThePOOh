@@ -12,3 +12,10 @@ F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej07\obj\Debug\ej07.csproj.Assemb
 F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej07\obj\Debug\ej07.csproj.CoreCompileInputs.cache
 F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej07\obj\Debug\ej7.exe
 F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej07\obj\Debug\ej7.pdb
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej07\bin\Debug\ej7.exe.config
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej07\bin\Debug\ej7.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej07\bin\Debug\ej7.pdb
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej07\obj\Debug\ej07.csproj.AssemblyReference.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej07\obj\Debug\ej07.csproj.CoreCompileInputs.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej07\obj\Debug\ej7.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej07\obj\Debug\ej7.pdb
