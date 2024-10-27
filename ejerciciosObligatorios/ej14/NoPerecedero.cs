@@ -21,5 +21,12 @@ namespace ej14
         {
             return base.Calcular(a);
         }
+        public override void MostrarDetalles()
+        {
+            Console.WriteLine("----");
+            base.MostrarDetalles();
+            Console.WriteLine("Type: " + type);
+            Console.WriteLine("----");
+        }
     }
 }

@@ -24,5 +24,11 @@ namespace ej14
         {
             return price * a.Count;
         }
+        public virtual void MostrarDetalles() 
+        {
+                Console.WriteLine("Nombre: " + Name);
+                Console.WriteLine("Precio: " + Price);
+
+        }
     }
 }

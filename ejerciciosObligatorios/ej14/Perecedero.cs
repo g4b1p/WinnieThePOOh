@@ -18,17 +18,21 @@ namespace ej14
 
         public override float Calcular(List<Producto> a)
         {
-            base.Calcular(a);
-            foreach (Producto i in a)
-            {
-                if (useByDate == 3)
-                    return Price /= 2;
-                else if (useByDate == 2)
-                    return Price /= 3;
-                else if (useByDate == 1)
-                    return Price /= 4;
-            }
-            return Price;
+            float precio = base.Calcular(a);
+            if (useByDate == 3)
+                return precio / 2;
+            else if (useByDate == 2)
+                return precio / 3;
+            else if (useByDate == 1)
+                return precio / 4;
+            return precio;
+        }
+        public override void MostrarDetalles()
+        {
+            Console.WriteLine("----");
+            base.MostrarDetalles();
+            Console.WriteLine("UseBy: " + useByDate + "dias");
+            Console.WriteLine("----");
         }
     }
 }
