@@ -30,7 +30,7 @@ namespace snake
             {
                 if (i == 0) 
                     bodyParts[i].Type = bodyParts[i].Type = Part.SnakePartType.HeadHorizontal;
-                else if(i == bodyParts.Count - 1)
+                else if(i < bodyParts.Count - 1)
                     bodyParts[i].Type = bodyParts[i].Type = Part.SnakePartType.BodyHorizontal;
                 else
                     bodyParts[i].Type = bodyParts[i].Type = Part.SnakePartType.TailHorizontal;

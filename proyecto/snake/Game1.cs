@@ -11,6 +11,7 @@ namespace snake
         List<Part> bodyParts = new List<Part>();
         private GraphicsDeviceManager _graphics;
         public SpriteBatch _spriteBatch;
+        Vector2 direction;
 
         public Game1()
         {
@@ -47,6 +48,16 @@ namespace snake
                 Exit();
 
             // TODO: Add your update logic here
+            KeyboardState keyboardState = Keyboard.GetState();
+
+            if (keyboardState.IsKeyDown(Keys.Up))
+                direction = new Vector2(0, -1);
+            else if (keyboardState.IsKeyDown(Keys.Down))
+                direction = new Vector2(0, 1);
+            else if (keyboardState.IsKeyDown(Keys.Left))
+                direction = new Vector2(-1, 0);
+            else if (keyboardState.IsKeyDown(Keys.Right))
+                direction = new Vector2(1, 0);
 
             base.Update(gameTime);
         }
