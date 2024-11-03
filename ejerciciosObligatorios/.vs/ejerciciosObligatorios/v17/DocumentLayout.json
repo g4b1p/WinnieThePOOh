@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E7CC0626-15DB-4B06-9899-AAC2293D35C4}|ej10\\ej10.csproj|f:\\bauchi\\winniethepooh\\ejerciciosobligatorios\\ej10\\mazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7CC0626-15DB-4B06-9899-AAC2293D35C4}|ej10\\ej10.csproj|solutionrelative:ej10\\mazo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|f:\\bauchi\\winniethepooh\\ejerciciosobligatorios\\ej14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|solutionrelative:ej14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,20 +30,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Program.cs",
               "RelativeDocumentMoniker": "ej14\\Program.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Program.cs*",
-              "RelativeToolTip": "ej14\\Program.cs*",
+              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Program.cs",
+              "RelativeToolTip": "ej14\\Program.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAuwB4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T23:34:42.662Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mazo.cs",
+              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\Mazo.cs",
+              "RelativeDocumentMoniker": "ej10\\Mazo.cs",
+              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej10\\Mazo.cs*",
+              "RelativeToolTip": "ej10\\Mazo.cs*",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T01:56:11.968Z",
               "EditorCaption": ""
             },
             {
@@ -72,7 +89,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Producto.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Producto.cs",
               "RelativeDocumentMoniker": "ej14\\Producto.cs",
@@ -85,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Perecedero.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Perecedero.cs",
               "RelativeDocumentMoniker": "ej14\\Perecedero.cs",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NoPerecedero.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\NoPerecedero.cs",
               "RelativeDocumentMoniker": "ej14\\NoPerecedero.cs",
