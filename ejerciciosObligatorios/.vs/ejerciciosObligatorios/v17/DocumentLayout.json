@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\",
+  "WorkspaceRootPath": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|solutionrelative:ej14\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|f:\\bauchi\\winniethepooh\\ejerciciosobligatorios\\ej14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|solutionrelative:ej14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\noperecedero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|solutionrelative:ej14\\noperecedero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|solutionrelative:ej14\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\perecedero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\perecedero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|solutionrelative:ej14\\perecedero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\noperecedero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|solutionrelative:ej14\\noperecedero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Program.cs",
+              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Program.cs",
               "RelativeDocumentMoniker": "ej14\\Program.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Program.cs",
-              "RelativeToolTip": "ej14\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAkAAAA",
+              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Program.cs*",
+              "RelativeToolTip": "ej14\\Program.cs*",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwB4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T23:34:42.662Z",
               "IsPinned": true,
@@ -72,39 +72,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Producto.cs",
+              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Producto.cs",
               "RelativeDocumentMoniker": "ej14\\Producto.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Producto.cs",
+              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Producto.cs",
               "RelativeToolTip": "ej14\\Producto.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T23:27:48.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Perecedero.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Perecedero.cs",
+              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Perecedero.cs",
               "RelativeDocumentMoniker": "ej14\\Perecedero.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Perecedero.cs",
+              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Perecedero.cs",
               "RelativeToolTip": "ej14\\Perecedero.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABsAAAAdAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwCIAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T23:31:14.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NoPerecedero.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\NoPerecedero.cs",
+              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\NoPerecedero.cs",
               "RelativeDocumentMoniker": "ej14\\NoPerecedero.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\NoPerecedero.cs",
+              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\NoPerecedero.cs",
               "RelativeToolTip": "ej14\\NoPerecedero.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T23:31:29.139Z",
               "EditorCaption": ""
