@@ -29,11 +29,11 @@ namespace snake
             for (int i = 0; i < bodyParts.Count; i++) 
             {
                 if (i == 0) 
-                    bodyParts[i].Type = "headH";
+                    bodyParts[i].Type = bodyParts[i].Type = Part.SnakePartType.HeadHorizontal;
                 else if(i == bodyParts.Count - 1)
-                    bodyParts[i].Type = "tailH";
+                    bodyParts[i].Type = bodyParts[i].Type = Part.SnakePartType.BodyHorizontal;
                 else
-                    bodyParts[i].Type = "bodyRH";
+                    bodyParts[i].Type = bodyParts[i].Type = Part.SnakePartType.TailHorizontal;
             }
         }
 
@@ -48,7 +48,7 @@ namespace snake
                 snakePosition,
                 bodyParts[i].Draw(),
                 Color.White,
-                bodyParts[i].Angle,
+                0f,
                 new Vector2(aux, 0),
                 Vector2.One,
                 SpriteEffects.None,

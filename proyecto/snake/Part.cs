@@ -10,34 +10,41 @@ namespace snake
 {
     internal class Part : Game
     {
-        string type = "bodyR";
-        float angle = 0f;
-        public float Angle { get { return angle; } set { angle = value; } }
-        public string Type {  get { return type;  } set { type = value; } }
-        Rectangle snakeBodyRectHorizontal = new Rectangle(64, 0, 64, 64);
-        Rectangle snakeBodyRectVertical = new Rectangle(128, 64, 64, 64);
-        Rectangle snakeBodyCorner = new Rectangle(0, 0, 64, 64);
-        Rectangle snakeHeadVertical = new Rectangle(192, 0, 64, 64);
-        Rectangle snakeHeadHorizontal = new Rectangle(256, 0, 64, 64);
-        Rectangle snakeTailVertical = new Rectangle(192, 128, 64, 64);
-        Rectangle snakeTailHorizontal = new Rectangle(256, 128, 64, 64);
+        SnakePartType type;
+        public SnakePartType Type{  get { return type;  } set { type = value; } }
+        public enum SnakePartType
+        {
+            HeadHorizontal,
+            HeadVertical,
+            BodyHorizontal,
+            BodyVertical,
+            BodyCorner,
+            TailHorizontal,
+            TailVertical
+        }
 
+        private Dictionary<SnakePartType, Rectangle> snakeParts = new Dictionary<SnakePartType, Rectangle>
+{
+            { SnakePartType.HeadHorizontal, new Rectangle(256, 0, 64, 64) },
+            { SnakePartType.HeadVertical, new Rectangle(192, 0, 64, 64) },
+            { SnakePartType.BodyHorizontal, new Rectangle(64, 0, 64, 64) },
+            { SnakePartType.BodyVertical, new Rectangle(128, 64, 64, 64) },
+            { SnakePartType.BodyCorner, new Rectangle(0, 0, 64, 64) },
+            { SnakePartType.TailHorizontal, new Rectangle(256, 128, 64, 64) },
+            { SnakePartType.TailVertical, new Rectangle(192, 128, 64, 64) }
+        };
+        
         public Rectangle Draw()
         {
-            if (type == "headH")
-                return snakeHeadHorizontal;
-            else if(type == "headV")
-                return snakeHeadVertical;
-            else if (type == "bodyRH")
-                return snakeBodyRectHorizontal;
-            else if (type == "bodyRV")
-                return snakeHeadVertical;
-            else if (type == "bodyC")
-                return snakeBodyCorner;
-            else if (type == "tailH")
-                return snakeTailHorizontal;
-            else 
-                return snakeTailVertical;
+            if (snakeParts.TryGetValue(type, out Rectangle rectangle))
+            {
+                return rectangle;
+            }
+            else
+            {
+                throw new ArgumentOutOfRangeException($"El tipo {type} no tiene un Rectangle asignado.");
+            }
         }
+        
     }
 }
