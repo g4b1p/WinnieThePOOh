@@ -14,7 +14,7 @@ namespace snake
         Rectangle snakeApple = new Rectangle(0, 192, 64, 64);
         List<Part> bodyParts;
         Vector2 snakePosition;
-        float snakeSpeed = 1;
+        float snakeSpeed;
         
         public Snake(List<Part> bodyParts)
         {
