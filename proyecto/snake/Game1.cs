@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 
+
 namespace snake
 {
     public class Game1 : Game
@@ -12,7 +13,6 @@ namespace snake
         private GraphicsDeviceManager _graphics;
         public SpriteBatch _spriteBatch;
         Vector2 direction;
-
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -47,17 +47,61 @@ namespace snake
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
-            KeyboardState keyboardState = Keyboard.GetState();
+            var kstate = GamePad.GetState(PlayerIndex.One);
 
-            if (keyboardState.IsKeyDown(Keys.Up))
-                direction = new Vector2(0, -1);
-            else if (keyboardState.IsKeyDown(Keys.Down))
-                direction = new Vector2(0, 1);
-            else if (keyboardState.IsKeyDown(Keys.Left))
-                direction = new Vector2(-1, 0);
-            else if (keyboardState.IsKeyDown(Keys.Right))
-                direction = new Vector2(1, 0);
+            Vector2 direction = Vector2.Zero;
+
+            if (kstate.IsButtonDown(Buttons.DPadUp) || kstate.IsButtonDown(Buttons.LeftThumbstickUp))
+            {
+                direction.Y -= 1;
+            }
+
+            if (kstate.IsButtonDown(Buttons.DPadDown) || kstate.IsButtonDown(Buttons.LeftThumbstickDown))
+            {
+                direction.Y += 1;
+            }
+
+            if (kstate.IsButtonDown(Buttons.DPadLeft) || kstate.IsButtonDown(Buttons.LeftThumbstickLeft))
+            {
+                direction.X -= 1;
+            }
+
+            if (kstate.IsButtonDown(Buttons.DPadRight) || kstate.IsButtonDown(Buttons.LeftThumbstickRight))
+            {
+                direction.X += 1;
+            }
+            /*           var kstate = Keyboard.GetState();
+
+                       Vector2 direction = Vector2.Zero;
+
+                       if (kstate.IsKeyDown(Keys.Up) || kstate.IsKeyDown(Keys.W))
+                       {
+                           direction.Y -= 1;
+                       }
+
+                       if (kstate.IsKeyDown(Keys.Down) || kstate.IsKeyDown(Keys.S))
+                       {
+                           direction.Y += 1;
+                       }
+
+                       if (kstate.IsKeyDown(Keys.Left) || kstate.IsKeyDown(Keys.A))
+                       {
+                           direction.X -= 1;
+                       }
+
+                       if (kstate.IsKeyDown(Keys.Right) || kstate.IsKeyDown(Keys.D))
+                       {
+                           direction.X += 1;
+                       }
+                       */
+
+            if (direction != Vector2.Zero)
+            {
+                direction.Normalize();
+            }
+
+            snake.SnakePosition += direction * snake.SnakeSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+            // TODO: Add your update logic here
 
             base.Update(gameTime);
         }
