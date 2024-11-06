@@ -14,6 +14,7 @@ namespace snake
         Rectangle snakeApple = new Rectangle(0, 192, 64, 64);
         List<Part> bodyParts;
         Vector2 snakePosition;
+        Vector2 applePosition;
         float snakeSpeed;
         
         public Snake(List<Part> bodyParts)
@@ -21,6 +22,7 @@ namespace snake
             this.bodyParts = bodyParts;
         }
         public Vector2 SnakePosition {get { return snakePosition; } set { snakePosition = value; } }
+        public Vector2 ApplePosition { get { return applePosition; } set { applePosition = value; } }
         public float SnakeSpeed { get { return snakeSpeed; } set { snakeSpeed = value; } }
         public Texture2D SnakeSheet { get { return snakeSheet; } set { snakeSheet = value; } }
 
@@ -36,12 +38,25 @@ namespace snake
                     bodyParts[i].Type = bodyParts[i].Type = Part.SnakePartType.TailHorizontal;
             }
         }
+        public void DrawApple(SpriteBatch spriteBatch)
+        {
+            spriteBatch.Draw(
+            snakeSheet,
+            new Vector2(0,0),
+            snakeApple,
+            Color.White,
+            0f,
+            new Vector2(0, 0),
+            Vector2.One,
+            SpriteEffects.None,
+            0f);
+        }
 
         public void Draw(SpriteBatch spriteBatch)
         {
             UpdateBody();
             int aux = 0;
-            for (int i=0; i<bodyParts.Count; i++) 
+            for (int i = 0; i < bodyParts.Count; i++)
             {
                 spriteBatch.Draw(
                 snakeSheet,

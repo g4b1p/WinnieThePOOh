@@ -20,7 +20,8 @@ namespace snake
             BodyVertical,
             BodyCorner,
             TailHorizontal,
-            TailVertical
+            TailVertical,
+            Apple
         }
 
         private Dictionary<SnakePartType, Rectangle> snakeParts = new Dictionary<SnakePartType, Rectangle>
@@ -31,7 +32,8 @@ namespace snake
             { SnakePartType.BodyVertical, new Rectangle(128, 64, 64, 64) },
             { SnakePartType.BodyCorner, new Rectangle(0, 0, 64, 64) },
             { SnakePartType.TailHorizontal, new Rectangle(256, 128, 64, 64) },
-            { SnakePartType.TailVertical, new Rectangle(192, 128, 64, 64) }
+            { SnakePartType.TailVertical, new Rectangle(192, 128, 64, 64) },
+            { SnakePartType.Apple, new Rectangle(192, 128, 64, 64) }
         };
         
         public Rectangle Draw()
