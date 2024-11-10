@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ej10
 {
-    internal class Cartas
+    internal class Carta
     {
         int num;
         string palo;
@@ -16,7 +16,7 @@ namespace ej10
         public int Num { get { return num; } set { num = value; } }
         public string Palo { get { return palo; } set { palo = value; } }
 
-        public Cartas(int N, string P)
+        public Carta(int N, string P)
         {
             num = N;
             palo = P;
