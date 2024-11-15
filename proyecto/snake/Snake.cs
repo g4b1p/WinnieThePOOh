@@ -38,7 +38,7 @@ namespace snake
                     bodyParts[i].Type = bodyParts[i].Type = Part.SnakePartType.TailHorizontal;
             }
         }
-        public void DrawApple(SpriteBatch spriteBatch)
+       /* public void DrawApple(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(
             snakeSheet,
@@ -50,8 +50,7 @@ namespace snake
             Vector2.One,
             SpriteEffects.None,
             0f);
-        }
-
+        }*/
         public void Draw(SpriteBatch spriteBatch)
         {
             UpdateBody();
