@@ -11,9 +11,7 @@ namespace snake
     internal class Part : Game
     {
         SnakePartType type;
-        Vector2 position;
         public SnakePartType Type{  get { return type;  } set { type = value; } }
-        public Vector2 Position { get { return position; } set { position = value; } }
         public enum SnakePartType
         {
             HeadHorizontal,
