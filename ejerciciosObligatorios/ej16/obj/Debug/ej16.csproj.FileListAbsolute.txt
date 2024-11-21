@@ -1,0 +1,7 @@
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej16\bin\Debug\ej16.exe.config
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej16\bin\Debug\ej16.exe
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej16\bin\Debug\ej16.pdb
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej16\obj\Debug\ej16.csproj.AssemblyReference.cache
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej16\obj\Debug\ej16.csproj.CoreCompileInputs.cache
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej16\obj\Debug\ej16.exe
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej16\obj\Debug\ej16.pdb
