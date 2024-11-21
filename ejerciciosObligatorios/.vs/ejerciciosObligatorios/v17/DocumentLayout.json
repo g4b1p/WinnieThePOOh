@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|f:\\bauchi\\winniethepooh\\ejerciciosobligatorios\\ej16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|f:\\bauchi\\winniethepooh\\ejerciciosobligatorios\\ej16\\menunavegacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\menunavegacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\menunavegacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|f:\\bauchi\\winniethepooh\\ejerciciosobligatorios\\ej16\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|f:\\bauchi\\winniethepooh\\ejerciciosobligatorios\\ej16\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,20 +66,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MenuNavegacion.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\MenuNavegacion.cs",
               "RelativeDocumentMoniker": "ej16\\MenuNavegacion.cs",
               "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\MenuNavegacion.cs",
               "RelativeToolTip": "ej16\\MenuNavegacion.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwGcAAAABAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwGcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:44:41.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T01:44:41.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MenuPrincipal.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "ej16\\MenuPrincipal.cs",
@@ -87,12 +86,11 @@
               "RelativeToolTip": "ej16\\MenuPrincipal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:40:12.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T01:40:12.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Menu.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Menu.cs",
               "RelativeDocumentMoniker": "ej16\\Menu.cs",
@@ -100,21 +98,19 @@
               "RelativeToolTip": "ej16\\Menu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:39:56.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T01:39:56.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Agenda.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Agenda.cs",
               "RelativeDocumentMoniker": "ej16\\Agenda.cs",
               "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Agenda.cs",
               "RelativeToolTip": "ej16\\Agenda.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAApwEcAAAAQAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAhwEcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T12:47:00.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T12:47:00.68Z"
             },
             {
               "$type": "Document",
@@ -126,18 +122,17 @@
               "RelativeToolTip": "ej16\\Contacto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T12:40:54.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T12:40:54.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Program.cs",
               "RelativeDocumentMoniker": "ej16\\Program.cs",
               "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Program.cs",
               "RelativeToolTip": "ej16\\Program.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAcwGYAAABQAAAA",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAcwEAAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T02:58:34.564Z",
               "EditorCaption": ""

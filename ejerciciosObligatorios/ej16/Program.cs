@@ -62,7 +62,7 @@ namespace ej16
                             Console.WriteLine($"¡Ingrese número del nuevo contacto!");
                             int telefono = Convert.ToInt32(Console.ReadLine());
                             agenda.AñadirContacto(new Contacto(nombre, telefono));
-                            Console.WriteLine($"¡Contacto {nombre} de número {telefono} agregado con éxito!");
+                            Console.WriteLine($"Operación terminada.");
                             Console.WriteLine("Presione cualquier tecla para continuar...");
                             Console.ReadKey();
                         });
