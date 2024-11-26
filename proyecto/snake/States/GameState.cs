@@ -107,6 +107,7 @@ namespace snake.States
         {
             var kstate = Keyboard.GetState();
             Vector2 direction = Vector2.Zero;
+            snakePosition += direction * snakeSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
 
             if (kstate.IsKeyDown(Keys.Up) || kstate.IsKeyDown(Keys.W))
             {
@@ -133,7 +134,7 @@ namespace snake.States
                 direction.Normalize();
             }
 
-            snakePosition += direction * snakeSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+            
             snake.SnakePosition = snakePosition;
 
 

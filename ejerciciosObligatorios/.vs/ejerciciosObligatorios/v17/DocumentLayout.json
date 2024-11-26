@@ -1,49 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\",
-  "Documents": [
-    {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|f:\\bauchi\\winniethepooh\\ejerciciosobligatorios\\ej16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\menunavegacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\menunavegacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9763048D-D434-49BB-9C52-718428F8DA89}|ej16\\ej16.csproj|solutionrelative:ej16\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|c:\\users\\bauti\\documents\\github\\winniethepooh\\ejerciciosobligatorios\\ej14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|solutionrelative:ej14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|solutionrelative:ej14\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\perecedero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|solutionrelative:ej14\\perecedero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\noperecedero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A411927-CA2F-402E-9EF8-0A57694C8344}|ej14\\ej14.csproj|solutionrelative:ej14\\noperecedero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> Stashed changes
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -51,26 +9,9 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-<<<<<<< Updated upstream
-=======
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Program.cs",
-              "RelativeDocumentMoniker": "ej14\\Program.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Program.cs",
-              "RelativeToolTip": "ej14\\Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAuwB4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T23:34:42.662Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
->>>>>>> Stashed changes
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
@@ -97,112 +38,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-<<<<<<< Updated upstream
-              "Title": "MenuNavegacion.cs",
-              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\MenuNavegacion.cs",
-              "RelativeDocumentMoniker": "ej16\\MenuNavegacion.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\MenuNavegacion.cs",
-              "RelativeToolTip": "ej16\\MenuNavegacion.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwGcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:44:41.6Z"
-=======
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Producto.cs",
-              "RelativeDocumentMoniker": "ej14\\Producto.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Producto.cs",
-              "RelativeToolTip": "ej14\\Producto.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T23:27:48.78Z"
->>>>>>> Stashed changes
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-<<<<<<< Updated upstream
-              "Title": "MenuPrincipal.cs",
-              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\MenuPrincipal.cs",
-              "RelativeDocumentMoniker": "ej16\\MenuPrincipal.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\MenuPrincipal.cs",
-              "RelativeToolTip": "ej16\\MenuPrincipal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:40:12.333Z"
-=======
-              "Title": "Perecedero.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Perecedero.cs",
-              "RelativeDocumentMoniker": "ej14\\Perecedero.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\Perecedero.cs",
-              "RelativeToolTip": "ej14\\Perecedero.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAiwCIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T23:31:14.818Z"
->>>>>>> Stashed changes
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-<<<<<<< Updated upstream
-              "Title": "Menu.cs",
-              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Menu.cs",
-              "RelativeDocumentMoniker": "ej16\\Menu.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Menu.cs",
-              "RelativeToolTip": "ej16\\Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:39:56.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Agenda.cs",
-              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Agenda.cs",
-              "RelativeDocumentMoniker": "ej16\\Agenda.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Agenda.cs",
-              "RelativeToolTip": "ej16\\Agenda.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAhwEcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T12:47:00.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Contacto.cs",
-              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Contacto.cs",
-              "RelativeDocumentMoniker": "ej16\\Contacto.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Contacto.cs",
-              "RelativeToolTip": "ej16\\Contacto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T12:40:54.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Program.cs",
-              "RelativeDocumentMoniker": "ej16\\Program.cs",
-              "ToolTip": "F:\\bauchi\\WinnieThePOOh\\ejerciciosObligatorios\\ej16\\Program.cs",
-              "RelativeToolTip": "ej16\\Program.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAcwEAAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T02:58:34.564Z",
-              "EditorCaption": ""
-=======
-              "Title": "NoPerecedero.cs",
-              "DocumentMoniker": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\NoPerecedero.cs",
-              "RelativeDocumentMoniker": "ej14\\NoPerecedero.cs",
-              "ToolTip": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\ejerciciosObligatorios\\ej14\\NoPerecedero.cs",
-              "RelativeToolTip": "ej14\\NoPerecedero.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T23:31:29.139Z"
->>>>>>> Stashed changes
             }
           ]
         }
