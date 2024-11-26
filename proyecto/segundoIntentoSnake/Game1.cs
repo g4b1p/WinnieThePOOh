@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.Runtime.InteropServices;
+using static segundoIntentoSnake.Part;
 
 namespace segundoIntentoSnake
 {
@@ -74,18 +75,34 @@ namespace segundoIntentoSnake
             if (snake.SnakePosition == snake.ApplePosition)
             {
                 snake.GenerateApplePosition(random, _graphics);
-                
+
                 var lastPart = bodyParts[^1]; // ---
-                //var lastPart = bodyParts[bodyParts.Count - 1]; 
+                //var lastPart = bodyParts[bodyParts.Count - 2];
+                //Part lastPart = bodyParts[bodyParts.Count - 1];
+                //var anteultimaParte = bodyParts[^2];
 
                 var newPart = new Part
                 {
                     Position = lastPart.Position,
                     Direction = lastPart.Direction
                 };
+
+                /*
+                var newPart = new Part
+                {
+                    Position = bodyParts[^2].Position,
+                    Direction = bodyParts[^2].Direction
+                };*/
+
+                //snake.PartDefinition();
+                //bodyParts.Add(newPart);
+
                 bodyParts.Add(newPart);
+
                 delay -= 0.01f;
                 points++;
+
+                //snake.UpdateBody();
             }
 
 
@@ -154,7 +171,28 @@ namespace segundoIntentoSnake
             _spriteBatch.Begin();
             snake.DrawSnake(_spriteBatch);
             snake.DrawApple(_spriteBatch);
+
+            /*
             _spriteBatch.DrawString(spriteFont, $"Manzanas: {points}", new Vector2 (0,0), Color.White);
+            _spriteBatch.End();
+
+            base.Draw(gameTime);
+            */
+
+            _spriteBatch.Draw(
+                snake.SnakeSheet,
+                new Vector2(10, 10),
+                snake.apple,
+                Color.White,
+                0f,
+                Vector2.Zero,
+                new Vector2(0.5f, 0.5f),
+                SpriteEffects.None,
+                0f
+            );
+
+            _spriteBatch.DrawString(spriteFont, $"{points}", new Vector2(50, 20), Color.White);
+
             _spriteBatch.End();
 
             base.Draw(gameTime);

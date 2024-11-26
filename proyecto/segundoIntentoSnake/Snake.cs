@@ -16,7 +16,7 @@ namespace segundoIntentoSnake
         float snakeSpeed;
         List<Part> bodyParts;
         Vector2 applePosition;
-        Rectangle apple = new Rectangle(0, 192, 64, 64);
+        public Rectangle apple = new Rectangle(0, 192, 64, 64);
 
         public Texture2D SnakeSheet { get { return snakeSheet; } set { snakeSheet = value; } }
         public Vector2 SnakePosition { get { return snakePosition; } set { snakePosition = value; } }

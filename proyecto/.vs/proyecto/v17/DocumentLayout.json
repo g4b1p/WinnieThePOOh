@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\WinnieThePOOh\\proyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B87127C-2197-4C10-8152-C36DD95D67F3}|segundoIntentoSnake\\segundoIntentoSnake.csproj|c:\\xampp\\htdocs\\winniethepooh\\proyecto\\segundointentosnake\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B87127C-2197-4C10-8152-C36DD95D67F3}|segundoIntentoSnake\\segundoIntentoSnake.csproj|solutionrelative:segundointentosnake\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6B87127C-2197-4C10-8152-C36DD95D67F3}|segundoIntentoSnake\\segundoIntentoSnake.csproj|c:\\xampp\\htdocs\\winniethepooh\\proyecto\\segundointentosnake\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B87127C-2197-4C10-8152-C36DD95D67F3}|segundoIntentoSnake\\segundoIntentoSnake.csproj|solutionrelative:segundointentosnake\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{6B87127C-2197-4C10-8152-C36DD95D67F3}|segundoIntentoSnake\\segundoIntentoSnake.csproj|solutionrelative:segundointentosnake\\part.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8D3E133-FCC5-4192-9DA0-4606C8E527D2}|snake\\snake.csproj|c:\\xampp\\htdocs\\winniethepooh\\proyecto\\snake\\content\\snake_assets.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{F8D3E133-FCC5-4192-9DA0-4606C8E527D2}|snake\\snake.csproj|solutionrelative:snake\\content\\snake_assets.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{6B87127C-2197-4C10-8152-C36DD95D67F3}|segundoIntentoSnake\\segundoIntentoSnake.csproj|c:\\xampp\\htdocs\\winniethepooh\\proyecto\\segundointentosnake\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B87127C-2197-4C10-8152-C36DD95D67F3}|segundoIntentoSnake\\segundoIntentoSnake.csproj|solutionrelative:segundointentosnake\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,23 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 216,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\WinnieThePOOh\\proyecto\\segundoIntentoSnake\\Game1.cs",
-              "RelativeDocumentMoniker": "segundoIntentoSnake\\Game1.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\WinnieThePOOh\\proyecto\\segundoIntentoSnake\\Game1.cs",
-              "RelativeToolTip": "segundoIntentoSnake\\Game1.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAuwE8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "segundoIntentoSnake",
-              "WhenOpened": "2024-11-23T23:52:24.635Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
@@ -69,38 +50,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "snake_assets.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [320x256, 32 bits, PNG]",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\WinnieThePOOh\\proyecto\\snake\\Content\\snake_assets.png",
-              "RelativeDocumentMoniker": "snake\\Content\\snake_assets.png",
-              "ToolTip": "C:\\xampp\\htdocs\\WinnieThePOOh\\proyecto\\snake\\Content\\snake_assets.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [320x256, 32 bits, PNG]",
-              "RelativeToolTip": "snake\\Content\\snake_assets.png -  [Espa\u00F1ol (M\u00E9xico)] - PNG [320x256, 32 bits, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-11-26T19:16:45.356Z",
-              "EditorCaption": " -  [Espa\u00F1ol (M\u00E9xico)] - PNG [320x256, 32 bits, PNG]"
+              "DocumentIndex": 2,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\WinnieThePOOh\\proyecto\\segundoIntentoSnake\\Game1.cs",
+              "RelativeDocumentMoniker": "segundoIntentoSnake\\Game1.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\WinnieThePOOh\\proyecto\\segundoIntentoSnake\\Game1.cs",
+              "RelativeToolTip": "segundoIntentoSnake\\Game1.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAtwFQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "segundoIntentoSnake",
+              "WhenOpened": "2024-11-23T23:52:24.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Snake.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\WinnieThePOOh\\proyecto\\segundoIntentoSnake\\Snake.cs",
               "RelativeDocumentMoniker": "segundoIntentoSnake\\Snake.cs",
               "ToolTip": "C:\\xampp\\htdocs\\WinnieThePOOh\\proyecto\\segundoIntentoSnake\\Snake.cs",
               "RelativeToolTip": "segundoIntentoSnake\\Snake.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA8wDMAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAwC4AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T23:34:34.004Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Part.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\WinnieThePOOh\\proyecto\\segundoIntentoSnake\\Part.cs",
               "RelativeDocumentMoniker": "segundoIntentoSnake\\Part.cs",
               "ToolTip": "C:\\xampp\\htdocs\\WinnieThePOOh\\proyecto\\segundoIntentoSnake\\Part.cs",
               "RelativeToolTip": "segundoIntentoSnake\\Part.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T23:52:23.047Z",
               "EditorCaption": ""
