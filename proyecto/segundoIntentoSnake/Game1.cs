@@ -74,7 +74,10 @@ namespace segundoIntentoSnake
             if (snake.SnakePosition == snake.ApplePosition)
             {
                 snake.GenerateApplePosition(random, _graphics);
-                var lastPart = bodyParts[^1];
+                
+                var lastPart = bodyParts[^1]; // ---
+                //var lastPart = bodyParts[bodyParts.Count - 1]; 
+
                 var newPart = new Part
                 {
                     Position = lastPart.Position,

@@ -40,9 +40,18 @@ namespace segundoIntentoSnake
 
             bodyParts[0].Position = snakePosition;
             bodyParts[0].Direction = snakeDirection;
+
+            PartDefinition();
         }
+
         public void PartDefinition()
         {
+            Part ultimaParte = bodyParts[bodyParts.Count - 1];
+            Part anteultimaParte = bodyParts[bodyParts.Count - 2];
+
+            ultimaParte.Direction = anteultimaParte.Direction;
+
+
             for (int i = 0; i < bodyParts.Count; i++)
             {
                 if (i == 0)
@@ -95,6 +104,8 @@ namespace segundoIntentoSnake
                 }
             }
         }
+
+                
         public void GenerateApplePosition(Random random, GraphicsDeviceManager graphics)
         {
             int cellSize = 32;
