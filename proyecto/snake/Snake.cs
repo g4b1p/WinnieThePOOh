@@ -10,7 +10,6 @@ namespace snake
 {
     internal class Snake : Game
     {
-        Random random = new Random();
         Texture2D snakeSheet;
         Rectangle snakeApple = new Rectangle(0, 192, 64, 64);
         List<Part> bodyParts;
@@ -29,27 +28,25 @@ namespace snake
 
         public void UpdateBody()
         {
-            for (int i = bodyParts.Count - 1; i > 0; i--)
+            for (int i = 0; i < bodyParts.Count; i++) 
             {
-                bodyParts[i].Position = bodyParts[i - 1].Position;
+                if (i == 0) 
+                    bodyParts[i].Type = bodyParts[i].Type = Part.SnakePartType.HeadHorizontal;
+                else if(i < bodyParts.Count - 1)
+                    bodyParts[i].Type = bodyParts[i].Type = Part.SnakePartType.BodyHorizontal;
+                else
+                    bodyParts[i].Type = bodyParts[i].Type = Part.SnakePartType.TailHorizontal;
             }
-
-            bodyParts[0].Position = snakePosition;
-        }
-
-        public void GenerateApplePosition(Random random)
-        {
-            applePosition = new Vector2(random.Next(0, 10) * 64, random.Next(0, 10) * 64);
         }
         public void DrawApple(SpriteBatch spriteBatch)
         {
             spriteBatch.Draw(
             snakeSheet,
-            applePosition,
+            new Vector2(0,0),
             snakeApple,
             Color.White,
             0f,
-            new Vector2(0,0),
+            new Vector2(0, 0),
             Vector2.One,
             SpriteEffects.None,
             0f);
@@ -58,13 +55,20 @@ namespace snake
         public void Draw(SpriteBatch spriteBatch)
         {
             UpdateBody();
+            int aux = 0;
             for (int i = 0; i < bodyParts.Count; i++)
             {
                 spriteBatch.Draw(
                 snakeSheet,
-                bodyParts[i].Position,
+                snakePosition,
                 bodyParts[i].Draw(),
-                Color.White);
+                Color.White,
+                0f,
+                new Vector2(aux, 0),
+                Vector2.One,
+                SpriteEffects.None,
+                0f);
+                aux += 64;
             }
         }
     }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\proyecto\\snake\\snake.csproj": {}
+    "C:\\Users\\A-18\\Downloads\\chibau\\proyecto\\snake\\snake.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\proyecto\\snake\\snake.csproj": {
+    "C:\\Users\\A-18\\Downloads\\chibau\\proyecto\\snake\\snake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\proyecto\\snake\\snake.csproj",
+        "projectUniqueName": "C:\\Users\\A-18\\Downloads\\chibau\\proyecto\\snake\\snake.csproj",
         "projectName": "snake",
-        "projectPath": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\proyecto\\snake\\snake.csproj",
-        "packagesPath": "C:\\Users\\BAUTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BAUTI\\Documents\\GitHub\\WinnieThePOOh\\proyecto\\snake\\obj\\",
+        "projectPath": "C:\\Users\\A-18\\Downloads\\chibau\\proyecto\\snake\\snake.csproj",
+        "packagesPath": "C:\\Users\\A-18\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A-18\\Downloads\\chibau\\proyecto\\snake\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BAUTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\A-18\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
