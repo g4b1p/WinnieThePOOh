@@ -65,6 +65,7 @@ namespace segundoIntentoSnake
             spriteFont = Content.Load<SpriteFont>("Fonts/ArcadeFont");
         }
 
+        
         protected override void Update(GameTime gameTime)
         {
             lastDelay += (float)gameTime.ElapsedGameTime.TotalSeconds;
@@ -73,13 +74,18 @@ namespace segundoIntentoSnake
 
 
             if (snake.SnakePosition == snake.ApplePosition)
-            {
+            { 
+                snake.mantenerCola = true;
+
                 snake.GenerateApplePosition(random, _graphics);
 
-                var lastPart = bodyParts[^1]; // ---
+                Part cola = bodyParts[bodyParts.Count - 1];
+
+                //Part cola = bodyParts[^1];
+                //Vector2 posCola = cola.Position;
+
                 //var lastPart = bodyParts[bodyParts.Count - 2];
-                //Part lastPart = bodyParts[bodyParts.Count - 1];
-                //var anteultimaParte = bodyParts[^2];
+                var lastPart = bodyParts[^1];
 
                 var newPart = new Part
                 {
@@ -88,6 +94,11 @@ namespace segundoIntentoSnake
                 };
 
                 /*
+                if (!mantenerCola)
+                {
+                    snake.UpdateBody();
+                }
+
                 var newPart = new Part
                 {
                     Position = bodyParts[^2].Position,
@@ -98,7 +109,7 @@ namespace segundoIntentoSnake
                 //bodyParts.Add(newPart);
 
                 bodyParts.Add(newPart);
-
+                
                 delay -= 0.01f;
                 points++;
 
@@ -158,9 +169,7 @@ namespace segundoIntentoSnake
                 snake.UpdateBody();
                 lastDelay = 0f;
             }
-
             base.Update(gameTime);
-
         }
 
         protected override void Draw(GameTime gameTime)

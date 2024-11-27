@@ -24,14 +24,21 @@ namespace segundoIntentoSnake
         public float SnakeSpeed { get { return snakeSpeed; } set { snakeSpeed = value; } }
         public Vector2 ApplePosition { get { return applePosition; } set { applePosition = value; } }
 
+        public bool mantenerCola = false;
 
         public Snake(List<Part> bodyParts)
         {
             this.bodyParts = bodyParts;
         }
 
+        
         public void UpdateBody()
         {
+            if (!mantenerCola)
+            {
+
+            }
+            
             for (int i = bodyParts.Count - 1; i > 0; i--)
             {
                 bodyParts[i].Position = bodyParts[i - 1].Position;
@@ -104,6 +111,7 @@ namespace segundoIntentoSnake
                 }
             }
         }
+
 
                 
         public void GenerateApplePosition(Random random, GraphicsDeviceManager graphics)
